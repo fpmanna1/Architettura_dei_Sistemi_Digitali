@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Tue Feb 28 13:18:08 2023
+# Process ID: 1560
+# Current directory: C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_3_Comunicazione_con_Handshaking/7_1_handshaking
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7192 C:\Users\nokia\Desktop\Projects_ASDI\Capitolo_3_Comunicazione_con_Handshaking\7_1_handshaking\7_1_handshaking.xpr
+# Log file: C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_3_Comunicazione_con_Handshaking/7_1_handshaking/vivado.log
+# Journal file: C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_3_Comunicazione_con_Handshaking/7_1_handshaking\vivado.jou
+# Running On: HP_ENVY_x360, OS: Windows, CPU Frequency: 2371 MHz, CPU Physical cores: 6, Host memory: 7932 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_3_Comunicazione_con_Handshaking/7_1_handshaking/7_1_handshaking.xpr
+update_compile_order -fileset sources_1

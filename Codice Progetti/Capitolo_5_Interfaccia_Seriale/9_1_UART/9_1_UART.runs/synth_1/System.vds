@@ -1,0 +1,387 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Mar  1 13:42:52 2023
+# Process ID: 23788
+# Current directory: C:/Users/claud/VivadoProjects/9_1_UART/9_1_UART.runs/synth_1
+# Command line: vivado.exe -log System.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source System.tcl
+# Log file: C:/Users/claud/VivadoProjects/9_1_UART/9_1_UART.runs/synth_1/System.vds
+# Journal file: C:/Users/claud/VivadoProjects/9_1_UART/9_1_UART.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source System.tcl -notrace
+Command: synth_design -top System -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 23836 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 716.195 ; gain = 178.395
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'System' [C:/Users/claud/VivadoProjects/9_1_UART/9_1_UART.srcs/sources_1/new/System.vhd:15]
+INFO: [Synth 8-3491] module 'SysA' declared at 'C:/Users/claud/VivadoProjects/9_1_UART/9_1_UART.srcs/sources_1/new/SysA.vhd:4' bound to instance 'nodeA' of component 'SysA' [C:/Users/claud/VivadoProjects/9_1_UART/9_1_UART.srcs/sources_1/new/System.vhd:47]
+INFO: [Synth 8-638] synthesizing module 'SysA' [C:/Users/claud/VivadoProjects/9_1_UART/9_1_UART.srcs/sources_1/new/SysA.vhd:14]
+	Parameter BAUD_DIVIDE_G bound to: 14 - type: integer 
+	Parameter BAUD_RATE_G bound to: 231 - type: integer 
+INFO: [Synth 8-3491] module 'UARTcomponent' declared at 'C:/Users/claud/VivadoProjects/9_1_UART/9_1_UART.srcs/sources_1/new/RS232RefComp2.vhd:60' bound to instance 'uart' of component 'UARTcomponent' [C:/Users/claud/VivadoProjects/9_1_UART/9_1_UART.srcs/sources_1/new/SysA.vhd:53]
+INFO: [Synth 8-638] synthesizing module 'UARTcomponent' [C:/Users/claud/VivadoProjects/9_1_UART/9_1_UART.srcs/sources_1/new/RS232RefComp2.vhd:87]
+	Parameter BAUD_DIVIDE_G bound to: 14 - type: integer 
+	Parameter BAUD_RATE_G bound to: 231 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'UARTcomponent' (1#1) [C:/Users/claud/VivadoProjects/9_1_UART/9_1_UART.srcs/sources_1/new/RS232RefComp2.vhd:87]
+WARNING: [Synth 8-3848] Net rxd_tmp in module/entity SysA does not have driver. [C:/Users/claud/VivadoProjects/9_1_UART/9_1_UART.srcs/sources_1/new/SysA.vhd:16]
+WARNING: [Synth 8-3848] Net rd_tmp in module/entity SysA does not have driver. [C:/Users/claud/VivadoProjects/9_1_UART/9_1_UART.srcs/sources_1/new/SysA.vhd:18]
+INFO: [Synth 8-256] done synthesizing module 'SysA' (2#1) [C:/Users/claud/VivadoProjects/9_1_UART/9_1_UART.srcs/sources_1/new/SysA.vhd:14]
+INFO: [Synth 8-3491] module 'SysB' declared at 'C:/Users/claud/VivadoProjects/9_1_UART/9_1_UART.srcs/sources_1/new/SysB.vhd:4' bound to instance 'nodeB' of component 'SysB' [C:/Users/claud/VivadoProjects/9_1_UART/9_1_UART.srcs/sources_1/new/System.vhd:56]
+INFO: [Synth 8-638] synthesizing module 'SysB' [C:/Users/claud/VivadoProjects/9_1_UART/9_1_UART.srcs/sources_1/new/SysB.vhd:14]
+	Parameter BAUD_DIVIDE_G bound to: 14 - type: integer 
+	Parameter BAUD_RATE_G bound to: 231 - type: integer 
+INFO: [Synth 8-3491] module 'UARTcomponent' declared at 'C:/Users/claud/VivadoProjects/9_1_UART/9_1_UART.srcs/sources_1/new/RS232RefComp2.vhd:60' bound to instance 'uart' of component 'UARTcomponent' [C:/Users/claud/VivadoProjects/9_1_UART/9_1_UART.srcs/sources_1/new/SysB.vhd:53]
+WARNING: [Synth 8-3848] Net dbin_tmp in module/entity SysB does not have driver. [C:/Users/claud/VivadoProjects/9_1_UART/9_1_UART.srcs/sources_1/new/SysB.vhd:17]
+WARNING: [Synth 8-3848] Net wr_tmp in module/entity SysB does not have driver. [C:/Users/claud/VivadoProjects/9_1_UART/9_1_UART.srcs/sources_1/new/SysB.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'SysB' (3#1) [C:/Users/claud/VivadoProjects/9_1_UART/9_1_UART.srcs/sources_1/new/SysB.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'System' (4#1) [C:/Users/claud/VivadoProjects/9_1_UART/9_1_UART.srcs/sources_1/new/System.vhd:15]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 779.734 ; gain = 241.934
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 779.734 ; gain = 241.934
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 779.734 ; gain = 241.934
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/claud/VivadoProjects/9_1_UART/9_1_UART.srcs/constrs_1/new/Nexys-A7-100T-Master.xdc]
+Finished Parsing XDC File [C:/Users/claud/VivadoProjects/9_1_UART/9_1_UART.srcs/constrs_1/new/Nexys-A7-100T-Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/claud/VivadoProjects/9_1_UART/9_1_UART.srcs/constrs_1/new/Nexys-A7-100T-Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/System_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/System_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 900.750 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 900.750 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:21 . Memory (MB): peak = 900.750 ; gain = 362.949
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:21 . Memory (MB): peak = 900.750 ; gain = 362.949
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:08 ; elapsed = 00:00:21 . Memory (MB): peak = 900.750 ; gain = 362.949
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'strCur_reg' in module 'UARTcomponent'
+INFO: [Synth 8-802] inferred FSM for state register 'sttCur_reg' in module 'UARTcomponent'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 sttidle |                            00001 |                              000
+             stttransfer |                            00010 |                              001
+                sttdelay |                            00100 |                              011
+                sttshift |                            01000 |                              010
+            sttwaitwrite |                            10000 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'sttCur_reg' using encoding 'one-hot' in module 'UARTcomponent'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 stridle |                           000001 |                              000
+           streightdelay |                           000010 |                              001
+             strwaitfor0 |                           000100 |                              011
+            strcheckstop |                           001000 |                              101
+             strwaitfor1 |                           010000 |                              100
+              strgetdata |                           100000 |                              010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'strCur_reg' using encoding 'one-hot' in module 'UARTcomponent'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:21 . Memory (MB): peak = 900.750 ; gain = 362.949
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 6     
++---XORs : 
+	   8 Input      1 Bit         XORs := 2     
+	   9 Input      1 Bit         XORs := 2     
++---Registers : 
+	               11 Bit    Registers := 2     
+	               10 Bit    Registers := 4     
+	                8 Bit    Registers := 2     
+	                4 Bit    Registers := 6     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   2 Input     11 Bit        Muxes := 4     
+	   2 Input      8 Bit        Muxes := 2     
+	   6 Input      6 Bit        Muxes := 2     
+	   2 Input      6 Bit        Muxes := 10    
+	   5 Input      5 Bit        Muxes := 2     
+	   2 Input      5 Bit        Muxes := 8     
+	   5 Input      1 Bit        Muxes := 2     
+	   6 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module UARTcomponent 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 3     
++---XORs : 
+	   8 Input      1 Bit         XORs := 1     
+	   9 Input      1 Bit         XORs := 1     
++---Registers : 
+	               11 Bit    Registers := 1     
+	               10 Bit    Registers := 2     
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 3     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input     11 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 1     
+	   6 Input      6 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 5     
+	   5 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 4     
+	   5 Input      1 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\nodeA/uart/tfSReg_reg[10] )
+WARNING: [Synth 8-3332] Sequential element (nodeA/uart/FSM_onehot_strCur_reg[5]) is unused and will be removed from module System.
+WARNING: [Synth 8-3332] Sequential element (nodeA/uart/FSM_onehot_strCur_reg[4]) is unused and will be removed from module System.
+WARNING: [Synth 8-3332] Sequential element (nodeA/uart/FSM_onehot_strCur_reg[3]) is unused and will be removed from module System.
+WARNING: [Synth 8-3332] Sequential element (nodeA/uart/FSM_onehot_strCur_reg[2]) is unused and will be removed from module System.
+WARNING: [Synth 8-3332] Sequential element (nodeA/uart/FSM_onehot_strCur_reg[1]) is unused and will be removed from module System.
+WARNING: [Synth 8-3332] Sequential element (nodeA/uart/FSM_onehot_strCur_reg[0]) is unused and will be removed from module System.
+WARNING: [Synth 8-3332] Sequential element (nodeB/uart/FSM_onehot_sttCur_reg[4]) is unused and will be removed from module System.
+WARNING: [Synth 8-3332] Sequential element (nodeB/uart/FSM_onehot_sttCur_reg[3]) is unused and will be removed from module System.
+WARNING: [Synth 8-3332] Sequential element (nodeB/uart/FSM_onehot_sttCur_reg[2]) is unused and will be removed from module System.
+WARNING: [Synth 8-3332] Sequential element (nodeB/uart/FSM_onehot_sttCur_reg[1]) is unused and will be removed from module System.
+WARNING: [Synth 8-3332] Sequential element (nodeB/uart/FSM_onehot_sttCur_reg[0]) is unused and will be removed from module System.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:24 . Memory (MB): peak = 900.750 ; gain = 362.949
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:39 . Memory (MB): peak = 900.750 ; gain = 362.949
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:39 . Memory (MB): peak = 900.750 ; gain = 362.949
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:16 ; elapsed = 00:00:39 . Memory (MB): peak = 900.750 ; gain = 362.949
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:17 ; elapsed = 00:00:43 . Memory (MB): peak = 903.461 ; gain = 365.660
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:17 ; elapsed = 00:00:43 . Memory (MB): peak = 903.461 ; gain = 365.660
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:17 ; elapsed = 00:00:43 . Memory (MB): peak = 903.461 ; gain = 365.660
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:17 ; elapsed = 00:00:43 . Memory (MB): peak = 903.461 ; gain = 365.660
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:17 ; elapsed = 00:00:43 . Memory (MB): peak = 903.461 ; gain = 365.660
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:17 ; elapsed = 00:00:43 . Memory (MB): peak = 903.461 ; gain = 365.660
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++------------+--------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name | RTL Name                 | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------+--------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|System      | nodeB/uart/rdSReg_reg[7] | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
++------------+--------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     4|
+|3     |LUT1   |     6|
+|4     |LUT2   |     9|
+|5     |LUT3   |    17|
+|6     |LUT4   |    15|
+|7     |LUT5   |     7|
+|8     |LUT6   |     8|
+|9     |SRL16E |     1|
+|10    |FDRE   |    70|
+|11    |FDSE   |     2|
+|12    |IBUF   |    12|
+|13    |OBUF   |     8|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+----------------+------+
+|      |Instance |Module          |Cells |
++------+---------+----------------+------+
+|1     |top      |                |   160|
+|2     |  nodeA  |SysA            |    65|
+|3     |    uart |UARTcomponent_0 |    65|
+|4     |  nodeB  |SysB            |    74|
+|5     |    uart |UARTcomponent   |    74|
++------+---------+----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:17 ; elapsed = 00:00:43 . Memory (MB): peak = 903.461 ; gain = 365.660
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 11 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:11 ; elapsed = 00:00:38 . Memory (MB): peak = 903.461 ; gain = 244.645
+Synthesis Optimization Complete : Time (s): cpu = 00:00:17 ; elapsed = 00:00:43 . Memory (MB): peak = 903.461 ; gain = 365.660
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 922.578 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+29 Infos, 15 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:54 . Memory (MB): peak = 922.578 ; gain = 641.789
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 922.578 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/claud/VivadoProjects/9_1_UART/9_1_UART.runs/synth_1/System.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file System_utilization_synth.rpt -pb System_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Mar  1 13:43:51 2023...

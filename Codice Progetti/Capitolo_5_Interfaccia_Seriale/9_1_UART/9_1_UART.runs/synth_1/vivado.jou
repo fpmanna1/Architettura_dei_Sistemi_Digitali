@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Mar  1 13:42:52 2023
+# Process ID: 23788
+# Current directory: C:/Users/claud/VivadoProjects/9_1_UART/9_1_UART.runs/synth_1
+# Command line: vivado.exe -log System.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source System.tcl
+# Log file: C:/Users/claud/VivadoProjects/9_1_UART/9_1_UART.runs/synth_1/System.vds
+# Journal file: C:/Users/claud/VivadoProjects/9_1_UART/9_1_UART.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source System.tcl -notrace

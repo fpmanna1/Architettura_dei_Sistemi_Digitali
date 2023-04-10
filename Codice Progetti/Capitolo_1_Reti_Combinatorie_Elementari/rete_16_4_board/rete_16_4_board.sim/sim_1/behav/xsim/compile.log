@@ -1,0 +1,10 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_1_Reti_Combinatorie_Elementari/rete_16_4_board/rete_16_4_board.srcs/sources_1/new/demux_1_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'demux_1_4'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_1_Reti_Combinatorie_Elementari/rete_16_4_board/rete_16_4_board.srcs/sources_1/new/mux_16_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mux_16_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_1_Reti_Combinatorie_Elementari/rete_16_4_board/rete_16_4_board.srcs/sources_1/new/mux_4_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mux_4_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_1_Reti_Combinatorie_Elementari/rete_16_4_board/rete_16_4_board.srcs/sources_1/new/rete_16_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'rete_16_4'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_1_Reti_Combinatorie_Elementari/rete_16_4_board/rete_16_4_board.srcs/sim_1/new/rete_16_4_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'rete_16_4_tb'

@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Sat Mar 11 11:34:43 2023
+# Process ID: 16956
+# Current directory: C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2496 C:\Users\nokia\Desktop\Projects_ASDI\Capitolo_7_Macchine_Aritmetiche\11_robertson\MoltiplicatoreRobertson.xpr
+# Log file: C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/vivado.log
+# Journal file: C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson\vivado.jou
+# Running On: Yoga_7i, OS: Windows, CPU Frequency: 3110 MHz, CPU Physical cores: 12, Host memory: 16890 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.xpr
+update_compile_order -fileset sources_1

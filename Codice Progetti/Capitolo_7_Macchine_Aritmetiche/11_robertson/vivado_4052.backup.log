@@ -1,0 +1,743 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Thu Mar  2 09:50:20 2023
+# Process ID: 4052
+# Current directory: C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12412 C:\Users\nokia\Desktop\Projects_ASDI\Capitolo_7_Macchine_Aritmetiche\11_robertson\MoltiplicatoreRobertson.xpr
+# Log file: C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/vivado.log
+# Journal file: C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson\vivado.jou
+# Running On: HP_ENVY_x360, OS: Windows, CPU Frequency: 2371 MHz, CPU Physical cores: 6, Host memory: 7932 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson'
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-s7-25:part0:1.1 available at C:/Xilinx/Vivado/2022.1/data/boards/board_files/vivado-boards-master/new/board_files/arty-s7-25/E.0/board.xml as part xc7s25csga324-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-s7-50:part0:1.1 available at C:/Xilinx/Vivado/2022.1/data/boards/board_files/vivado-boards-master/new/board_files/arty-s7-50/B.0/board.xml as part xc7s50csga324-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-z7-10:part0:1.1 available at C:/Xilinx/Vivado/2022.1/data/boards/board_files/vivado-boards-master/new/board_files/arty-z7-10/A.0/board.xml as part xc7z010clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-z7-20:part0:1.1 available at C:/Xilinx/Vivado/2022.1/data/boards/board_files/vivado-boards-master/new/board_files/arty-z7-20/A.0/board.xml as part xc7z020clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:cmod-s7-25:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/boards/board_files/vivado-boards-master/new/board_files/cmod-s7-25/B.0/board.xml as part xc7s25csga225-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:cora-z7-07s:part0:1.1 available at C:/Xilinx/Vivado/2022.1/data/boards/board_files/vivado-boards-master/new/board_files/cora-z7-07s/B.0/board.xml as part xc7z007sclg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:cora-z7-10:part0:1.1 available at C:/Xilinx/Vivado/2022.1/data/boards/board_files/vivado-boards-master/new/board_files/cora-z7-10/B.0/board.xml as part xc7z010clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:eclypse-z7:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/boards/board_files/vivado-boards-master/new/board_files/eclypse-z7/A.0/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:eclypse-z7:part0:1.1 available at C:/Xilinx/Vivado/2022.1/data/boards/board_files/vivado-boards-master/new/board_files/eclypse-z7/B.0/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Xilinx/Vivado/2022.1/data/boards/board_files/vivado-boards-master/new/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:gzu_3eg:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/boards/board_files/vivado-boards-master/new/board_files/genesys-zu-3eg/B.0/board.xml as part xczu3eg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:gzu_3eg:part0:1.1 available at C:/Xilinx/Vivado/2022.1/data/boards/board_files/vivado-boards-master/new/board_files/genesys-zu-3eg/D.0/board.xml as part xczu3eg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:gzu_5ev:part0:1.1 available at C:/Xilinx/Vivado/2022.1/data/boards/board_files/vivado-boards-master/new/board_files/genesys-zu-5ev/C.0/board.xml as part xczu5ev-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:sword:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/boards/board_files/vivado-boards-master/new/board_files/sword/C.0/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:zedboard:part0:1.1 available at C:/Xilinx/Vivado/2022.1/data/boards/board_files/vivado-boards-master/new/board_files/zedboard/1.3/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:zybo-z7-10:part0:1.1 available at C:/Xilinx/Vivado/2022.1/data/boards/board_files/vivado-boards-master/new/board_files/zybo-z7-10/A.0/board.xml as part xc7z010clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:zybo-z7-20:part0:1.1 available at C:/Xilinx/Vivado/2022.1/data/boards/board_files/vivado-boards-master/new/board_files/zybo-z7-20/A.0/board.xml as part xc7z020clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:zybo:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/boards/board_files/vivado-boards-master/new/board_files/zybo/B.3/board.xml as part xc7z010clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:zybo:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/boards/board_files/vivado-boards-master/new/board_files/zybo/B.4/board.xml as part xc7z010clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26c/1.2/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26c/1.3/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26i/1.2/board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26i/1.3/board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kv260_som/1.2/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kv260_som/1.3/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.0/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.1 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.1/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc702:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc702/1.4/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu104:part0:1.1 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu104/1.1/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.4/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.5 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.5/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.6 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.6/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [Project 1-313] Project file moved from 'C:/Users/nokia/Desktop/robertson' since last save.
+INFO: [filemgmt 56-2] Default IP Output Path : Could not find the directory 'C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.gen/sources_1', nor could it be found using path 'C:/Users/nokia/Desktop/robertson/MoltiplicatoreRobertson.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.1/data/ip'.
+open_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 1235.586 ; gain = 0.000
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: moltiplicatore_robertson
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 1846.156 ; gain = 383.602
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'moltiplicatore_robertson' [C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/moltiplicatore_robertson.vhd:15]
+INFO: [Synth 8-3491] module 'Unita_Controllo' declared at 'C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/ControlUnit.vhd:4' bound to instance 'UC' of component 'Unita_Controllo' [C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/moltiplicatore_robertson.vhd:69]
+INFO: [Synth 8-638] synthesizing module 'Unita_Controllo' [C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/ControlUnit.vhd:21]
+INFO: [Synth 8-256] done synthesizing module 'Unita_Controllo' (0#1) [C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/ControlUnit.vhd:21]
+INFO: [Synth 8-3491] module 'Unita_Operativa' declared at 'C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/Datapath.vhd:7' bound to instance 'UO' of component 'Unita_Operativa' [C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/moltiplicatore_robertson.vhd:84]
+INFO: [Synth 8-638] synthesizing module 'Unita_Operativa' [C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/Datapath.vhd:25]
+INFO: [Synth 8-3491] module 'shift_register' declared at 'C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/shift_register.vhd:5' bound to instance 'A' of component 'shift_register' [C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/Datapath.vhd:117]
+INFO: [Synth 8-638] synthesizing module 'shift_register' [C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/shift_register.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'shift_register' (0#1) [C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/shift_register.vhd:20]
+INFO: [Synth 8-3491] module 'shift_register' declared at 'C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/shift_register.vhd:5' bound to instance 'Q' of component 'shift_register' [C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/Datapath.vhd:129]
+INFO: [Synth 8-3491] module 'registro' declared at 'C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/registro.vhd:5' bound to instance 'M' of component 'registro' [C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/Datapath.vhd:141]
+INFO: [Synth 8-638] synthesizing module 'registro' [C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/registro.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'registro' (0#1) [C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/registro.vhd:17]
+INFO: [Synth 8-3491] module 'ripple_carry_adder' declared at 'C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/ripple_carry_adder.vhd:4' bound to instance 'addr' of component 'ripple_carry_adder' [C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/Datapath.vhd:150]
+INFO: [Synth 8-638] synthesizing module 'ripple_carry_adder' [C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/ripple_carry_adder.vhd:16]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/full_adder.vhd:5' bound to instance 'add' of component 'full_adder' [C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/ripple_carry_adder.vhd:38]
+INFO: [Synth 8-638] synthesizing module 'full_adder' [C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/full_adder.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'full_adder' (0#1) [C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/full_adder.vhd:15]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/full_adder.vhd:5' bound to instance 'add' of component 'full_adder' [C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/ripple_carry_adder.vhd:43]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/full_adder.vhd:5' bound to instance 'add' of component 'full_adder' [C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/ripple_carry_adder.vhd:43]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/full_adder.vhd:5' bound to instance 'add' of component 'full_adder' [C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/ripple_carry_adder.vhd:43]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/full_adder.vhd:5' bound to instance 'add' of component 'full_adder' [C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/ripple_carry_adder.vhd:43]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/full_adder.vhd:5' bound to instance 'add' of component 'full_adder' [C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/ripple_carry_adder.vhd:43]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/full_adder.vhd:5' bound to instance 'add' of component 'full_adder' [C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/ripple_carry_adder.vhd:43]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/full_adder.vhd:5' bound to instance 'add' of component 'full_adder' [C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/ripple_carry_adder.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'ripple_carry_adder' (0#1) [C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/ripple_carry_adder.vhd:16]
+	Parameter M bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'counter' declared at 'C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/counter.vhd:7' bound to instance 'cnt' of component 'counter' [C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/Datapath.vhd:158]
+INFO: [Synth 8-638] synthesizing module 'counter' [C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/counter.vhd:19]
+	Parameter M bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'counter' (0#1) [C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/counter.vhd:19]
+INFO: [Synth 8-3491] module 'mux' declared at 'C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/mux.vhd:5' bound to instance 'mu' of component 'mux' [C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/Datapath.vhd:169]
+INFO: [Synth 8-638] synthesizing module 'mux' [C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/mux.vhd:14]
+INFO: [Synth 8-226] default block is never used [C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/mux.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'mux' (0#1) [C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/mux.vhd:14]
+INFO: [Synth 8-3491] module 'ff_sign' declared at 'C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/ff_sign.vhd:4' bound to instance 'ff' of component 'ff_sign' [C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/Datapath.vhd:176]
+INFO: [Synth 8-638] synthesizing module 'ff_sign' [C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/ff_sign.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'ff_sign' (0#1) [C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/ff_sign.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'Unita_Operativa' (0#1) [C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/Datapath.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'moltiplicatore_robertson' (0#1) [C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/moltiplicatore_robertson.vhd:15]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:10 . Memory (MB): peak = 1962.289 ; gain = 499.734
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:10 . Memory (MB): peak = 1962.289 ; gain = 499.734
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:10 . Memory (MB): peak = 1962.289 ; gain = 499.734
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1962.289 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/constrs_1/imports/digilent-xdc-master/Nexys-A7-100T-Master.xdc]
+Finished Parsing XDC File [C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/constrs_1/imports/digilent-xdc-master/Nexys-A7-100T-Master.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2016.492 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:06 ; elapsed = 00:00:15 . Memory (MB): peak = 2079.074 ; gain = 616.520
+41 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:32 . Memory (MB): peak = 2079.074 ; gain = 843.488
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'moltiplicatore_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'moltiplicatore_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj moltiplicatore_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/ControlUnit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Unita_Controllo'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/Datapath.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Unita_Operativa'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/counter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'counter'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/ff_sign.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ff_sign'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/full_adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'full_adder'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/moltiplicatore_robertson.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'moltiplicatore_robertson'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/mux.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mux'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/registro.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'registro'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/ripple_carry_adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ripple_carry_adder'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sources_1/new/shift_register.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'shift_register'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sim_1/new/moltiplicatore_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'moltiplicatore_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot moltiplicatore_tb_behav xil_defaultlib.moltiplicatore_tb -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot moltiplicatore_tb_behav xil_defaultlib.moltiplicatore_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.math_real
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.Unita_Controllo [unita_controllo_default]
+Compiling architecture behavioral of entity xil_defaultlib.shift_register [shift_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.registro [registro_default]
+Compiling architecture dataflow of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture structural of entity xil_defaultlib.ripple_carry_adder [ripple_carry_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.counter [counter_default]
+Compiling architecture dataflow of entity xil_defaultlib.mux [mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.ff_sign [ff_sign_default]
+Compiling architecture structural of entity xil_defaultlib.Unita_Operativa [unita_operativa_default]
+Compiling architecture structural of entity xil_defaultlib.moltiplicatore_robertson [moltiplicatore_robertson_default]
+Compiling architecture behavioral of entity xil_defaultlib.moltiplicatore_tb
+Built simulation snapshot moltiplicatore_tb_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 2082.258 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "moltiplicatore_tb_behav -key {Behavioral:sim_1:Functional:moltiplicatore_tb} -tclbatch {moltiplicatore_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source moltiplicatore_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'moltiplicatore_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:15 . Memory (MB): peak = 2110.238 ; gain = 27.980
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'moltiplicatore_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'moltiplicatore_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj moltiplicatore_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sim_1/new/moltiplicatore_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'moltiplicatore_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot moltiplicatore_tb_behav xil_defaultlib.moltiplicatore_tb -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot moltiplicatore_tb_behav xil_defaultlib.moltiplicatore_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.math_real
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.Unita_Controllo [unita_controllo_default]
+Compiling architecture behavioral of entity xil_defaultlib.shift_register [shift_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.registro [registro_default]
+Compiling architecture dataflow of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture structural of entity xil_defaultlib.ripple_carry_adder [ripple_carry_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.counter [counter_default]
+Compiling architecture dataflow of entity xil_defaultlib.mux [mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.ff_sign [ff_sign_default]
+Compiling architecture structural of entity xil_defaultlib.Unita_Operativa [unita_operativa_default]
+Compiling architecture structural of entity xil_defaultlib.moltiplicatore_robertson [moltiplicatore_robertson_default]
+Compiling architecture behavioral of entity xil_defaultlib.moltiplicatore_tb
+Built simulation snapshot moltiplicatore_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "moltiplicatore_tb_behav -key {Behavioral:sim_1:Functional:moltiplicatore_tb} -tclbatch {moltiplicatore_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source moltiplicatore_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'moltiplicatore_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 2115.676 ; gain = 3.988
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'moltiplicatore_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'moltiplicatore_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj moltiplicatore_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sim_1/new/moltiplicatore_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'moltiplicatore_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot moltiplicatore_tb_behav xil_defaultlib.moltiplicatore_tb -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot moltiplicatore_tb_behav xil_defaultlib.moltiplicatore_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.math_real
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.Unita_Controllo [unita_controllo_default]
+Compiling architecture behavioral of entity xil_defaultlib.shift_register [shift_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.registro [registro_default]
+Compiling architecture dataflow of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture structural of entity xil_defaultlib.ripple_carry_adder [ripple_carry_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.counter [counter_default]
+Compiling architecture dataflow of entity xil_defaultlib.mux [mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.ff_sign [ff_sign_default]
+Compiling architecture structural of entity xil_defaultlib.Unita_Operativa [unita_operativa_default]
+Compiling architecture structural of entity xil_defaultlib.moltiplicatore_robertson [moltiplicatore_robertson_default]
+Compiling architecture behavioral of entity xil_defaultlib.moltiplicatore_tb
+Built simulation snapshot moltiplicatore_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "moltiplicatore_tb_behav -key {Behavioral:sim_1:Functional:moltiplicatore_tb} -tclbatch {moltiplicatore_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source moltiplicatore_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'moltiplicatore_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 2116.164 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'moltiplicatore_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'moltiplicatore_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj moltiplicatore_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sim_1/new/moltiplicatore_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'moltiplicatore_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot moltiplicatore_tb_behav xil_defaultlib.moltiplicatore_tb -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot moltiplicatore_tb_behav xil_defaultlib.moltiplicatore_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.math_real
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.Unita_Controllo [unita_controllo_default]
+Compiling architecture behavioral of entity xil_defaultlib.shift_register [shift_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.registro [registro_default]
+Compiling architecture dataflow of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture structural of entity xil_defaultlib.ripple_carry_adder [ripple_carry_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.counter [counter_default]
+Compiling architecture dataflow of entity xil_defaultlib.mux [mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.ff_sign [ff_sign_default]
+Compiling architecture structural of entity xil_defaultlib.Unita_Operativa [unita_operativa_default]
+Compiling architecture structural of entity xil_defaultlib.moltiplicatore_robertson [moltiplicatore_robertson_default]
+Compiling architecture behavioral of entity xil_defaultlib.moltiplicatore_tb
+Built simulation snapshot moltiplicatore_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "moltiplicatore_tb_behav -key {Behavioral:sim_1:Functional:moltiplicatore_tb} -tclbatch {moltiplicatore_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source moltiplicatore_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'moltiplicatore_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 2121.984 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'moltiplicatore_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'moltiplicatore_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj moltiplicatore_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sim_1/new/moltiplicatore_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'moltiplicatore_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot moltiplicatore_tb_behav xil_defaultlib.moltiplicatore_tb -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot moltiplicatore_tb_behav xil_defaultlib.moltiplicatore_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.math_real
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.Unita_Controllo [unita_controllo_default]
+Compiling architecture behavioral of entity xil_defaultlib.shift_register [shift_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.registro [registro_default]
+Compiling architecture dataflow of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture structural of entity xil_defaultlib.ripple_carry_adder [ripple_carry_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.counter [counter_default]
+Compiling architecture dataflow of entity xil_defaultlib.mux [mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.ff_sign [ff_sign_default]
+Compiling architecture structural of entity xil_defaultlib.Unita_Operativa [unita_operativa_default]
+Compiling architecture structural of entity xil_defaultlib.moltiplicatore_robertson [moltiplicatore_robertson_default]
+Compiling architecture behavioral of entity xil_defaultlib.moltiplicatore_tb
+Built simulation snapshot moltiplicatore_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "moltiplicatore_tb_behav -key {Behavioral:sim_1:Functional:moltiplicatore_tb} -tclbatch {moltiplicatore_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source moltiplicatore_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'moltiplicatore_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 2200.770 ; gain = 0.797
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'moltiplicatore_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'moltiplicatore_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj moltiplicatore_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.srcs/sim_1/new/moltiplicatore_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'moltiplicatore_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot moltiplicatore_tb_behav xil_defaultlib.moltiplicatore_tb -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot moltiplicatore_tb_behav xil_defaultlib.moltiplicatore_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.math_real
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.Unita_Controllo [unita_controllo_default]
+Compiling architecture behavioral of entity xil_defaultlib.shift_register [shift_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.registro [registro_default]
+Compiling architecture dataflow of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture structural of entity xil_defaultlib.ripple_carry_adder [ripple_carry_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.counter [counter_default]
+Compiling architecture dataflow of entity xil_defaultlib.mux [mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.ff_sign [ff_sign_default]
+Compiling architecture structural of entity xil_defaultlib.Unita_Operativa [unita_operativa_default]
+Compiling architecture structural of entity xil_defaultlib.moltiplicatore_robertson [moltiplicatore_robertson_default]
+Compiling architecture behavioral of entity xil_defaultlib.moltiplicatore_tb
+Built simulation snapshot moltiplicatore_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "moltiplicatore_tb_behav -key {Behavioral:sim_1:Functional:moltiplicatore_tb} -tclbatch {moltiplicatore_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source moltiplicatore_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'moltiplicatore_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 2203.930 ; gain = 2.016
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_project
+open_project C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/8_1_processore/8_1_processore.xpr
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/8_1_processore/8_1_processore.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.1/data/ip'.
+update_compile_order -fileset sources_1
+file mkdir C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/8_1_processore/8_1_processore.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/8_1_processore/8_1_processore.srcs/sim_1/new/alu_tb.vhd w ]
+add_files -fileset sim_1 C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/8_1_processore/8_1_processore.srcs/sim_1/new/alu_tb.vhd
+update_compile_order -fileset sim_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/8_1_processore/8_1_processore.srcs/sim_1/new/control_unit_tb.vhd w ]
+add_files -fileset sim_1 C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/8_1_processore/8_1_processore.srcs/sim_1/new/control_unit_tb.vhd
+update_compile_order -fileset sim_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/8_1_processore/8_1_processore.srcs/sim_1/new/datapath_tb.vhd w ]
+add_files -fileset sim_1 C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/8_1_processore/8_1_processore.srcs/sim_1/new/datapath_tb.vhd
+update_compile_order -fileset sim_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/8_1_processore/8_1_processore.srcs/sim_1/new/processor_tb.vhd w ]
+add_files -fileset sim_1 C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/8_1_processore/8_1_processore.srcs/sim_1/new/processor_tb.vhd
+update_compile_order -fileset sim_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'system'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/8_1_processore/8_1_processore.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'system' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/8_1_processore/8_1_processore.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj system_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/vhdl/common_defs.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/vhdl/alu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/vhdl/control_store.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'control_store'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/vhdl/control_unit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'control_unit'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/vhdl/datapath.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'datapath'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/vhdl/dp_ar_ram.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'dp_ar_ram'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/vhdl/processor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'processor'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/vhdl/system.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'system'
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/8_1_processore/8_1_processore.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot system_behav xil_defaultlib.system -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot system_behav xil_defaultlib.system -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package xil_defaultlib.common_defs
+Compiling package ieee.numeric_std
+Compiling architecture dataflow of entity xil_defaultlib.control_store [control_store_default]
+Compiling architecture behavioral of entity xil_defaultlib.control_unit [control_unit_default]
+Compiling architecture behavioral of entity xil_defaultlib.alu [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.datapath [datapath_default]
+Compiling architecture structural of entity xil_defaultlib.processor [processor_default]
+Compiling architecture behavioral of entity xil_defaultlib.dp_ar_ram [dp_ar_ram_default]
+Compiling architecture structural of entity xil_defaultlib.system
+Built simulation snapshot system_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 2204.289 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/8_1_processore/8_1_processore.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "system_behav -key {Behavioral:sim_1:Functional:system} -tclbatch {system.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source system.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'system_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:13 . Memory (MB): peak = 2204.289 ; gain = 0.000
+set_property top processor_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'processor_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+boost::filesystem::remove: The process cannot access the file because it is being used by another process: "C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/8_1_processore/8_1_processore.sim/sim_1/behav/xsim/simulate.log"
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'processor_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+boost::filesystem::remove: The process cannot access the file because it is being used by another process: "C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/8_1_processore/8_1_processore.sim/sim_1/behav/xsim/simulate.log"
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Mar  2 12:39:15 2023...

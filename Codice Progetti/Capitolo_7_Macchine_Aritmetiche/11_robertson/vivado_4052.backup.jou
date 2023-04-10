@@ -1,0 +1,66 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Thu Mar  2 09:50:20 2023
+# Process ID: 4052
+# Current directory: C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12412 C:\Users\nokia\Desktop\Projects_ASDI\Capitolo_7_Macchine_Aritmetiche\11_robertson\MoltiplicatoreRobertson.xpr
+# Log file: C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/vivado.log
+# Journal file: C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson\vivado.jou
+# Running On: HP_ENVY_x360, OS: Windows, CPU Frequency: 2371 MHz, CPU Physical cores: 6, Host memory: 7932 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_7_Macchine_Aritmetiche/11_robertson/MoltiplicatoreRobertson.xpr
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+launch_simulation
+source moltiplicatore_tb.tcl
+close_sim
+launch_simulation
+source moltiplicatore_tb.tcl
+close_sim
+launch_simulation
+source moltiplicatore_tb.tcl
+close_sim
+launch_simulation
+source moltiplicatore_tb.tcl
+close_sim
+launch_simulation
+source moltiplicatore_tb.tcl
+close_sim
+launch_simulation
+source moltiplicatore_tb.tcl
+close_sim
+close_project
+open_project C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/8_1_processore/8_1_processore.xpr
+update_compile_order -fileset sources_1
+file mkdir C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/8_1_processore/8_1_processore.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/8_1_processore/8_1_processore.srcs/sim_1/new/alu_tb.vhd w ]
+add_files -fileset sim_1 C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/8_1_processore/8_1_processore.srcs/sim_1/new/alu_tb.vhd
+update_compile_order -fileset sim_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/8_1_processore/8_1_processore.srcs/sim_1/new/control_unit_tb.vhd w ]
+add_files -fileset sim_1 C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/8_1_processore/8_1_processore.srcs/sim_1/new/control_unit_tb.vhd
+update_compile_order -fileset sim_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/8_1_processore/8_1_processore.srcs/sim_1/new/datapath_tb.vhd w ]
+add_files -fileset sim_1 C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/8_1_processore/8_1_processore.srcs/sim_1/new/datapath_tb.vhd
+update_compile_order -fileset sim_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/8_1_processore/8_1_processore.srcs/sim_1/new/processor_tb.vhd w ]
+add_files -fileset sim_1 C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/8_1_processore/8_1_processore.srcs/sim_1/new/processor_tb.vhd
+update_compile_order -fileset sim_1
+launch_simulation
+source system.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top processor_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+close_sim

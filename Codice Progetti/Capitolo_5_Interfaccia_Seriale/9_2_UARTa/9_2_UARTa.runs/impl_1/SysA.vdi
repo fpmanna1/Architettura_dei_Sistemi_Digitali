@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Mar  4 16:36:17 2023
+# Process ID: 13416
+# Current directory: C:/Users/claud/VivadoProjects/9_2_UARTa/9_2_UARTa.runs/impl_1
+# Command line: vivado.exe -log SysA.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source SysA.tcl -notrace
+# Log file: C:/Users/claud/VivadoProjects/9_2_UARTa/9_2_UARTa.runs/impl_1/SysA.vdi
+# Journal file: C:/Users/claud/VivadoProjects/9_2_UARTa/9_2_UARTa.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source SysA.tcl -notrace
+
+*** Halting run - EA reset detected ***
+
+
+
+    while executing
+"start_step init_design"
+    (file "SysA.tcl" line 65)
+INFO: [Common 17-206] Exiting Vivado at Sat Mar  4 16:36:19 2023...

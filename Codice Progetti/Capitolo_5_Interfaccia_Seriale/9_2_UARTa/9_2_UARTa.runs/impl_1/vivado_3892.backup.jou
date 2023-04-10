@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Mar  5 15:52:02 2023
+# Process ID: 3892
+# Current directory: C:/Users/claud/VivadoProjects/9_2_UARTa/9_2_UARTa.runs/impl_1
+# Command line: vivado.exe -log System.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source System.tcl -notrace
+# Log file: C:/Users/claud/VivadoProjects/9_2_UARTa/9_2_UARTa.runs/impl_1/System.vdi
+# Journal file: C:/Users/claud/VivadoProjects/9_2_UARTa/9_2_UARTa.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source System.tcl -notrace

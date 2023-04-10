@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_1_Reti_Combinatorie_Elementari/2_1_Encoder/2_1_Encoder.srcs/sources_1/new/enc_bcd.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'enc_bcd'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_1_Reti_Combinatorie_Elementari/2_1_Encoder/2_1_Encoder.srcs/sim_1/new/enc_bcd_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'enc_bcd_tb'

@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Sat Feb  4 17:43:40 2023
+# Process ID: 12556
+# Current directory: C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_1_Reti_Combinatorie_Elementari/rete_16_4_board/rete_16_4_board.runs/impl_1
+# Command line: vivado.exe -log rete_16_4.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source rete_16_4.tcl -notrace
+# Log file: C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_1_Reti_Combinatorie_Elementari/rete_16_4_board/rete_16_4_board.runs/impl_1/rete_16_4.vdi
+# Journal file: C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_1_Reti_Combinatorie_Elementari/rete_16_4_board/rete_16_4_board.runs/impl_1\vivado.jou
+# Running On: DESKTOP-SNDUETL, OS: Windows, CPU Frequency: 2196 MHz, CPU Physical cores: 4, Host memory: 11753 MB
+#-----------------------------------------------------------
+source rete_16_4.tcl -notrace

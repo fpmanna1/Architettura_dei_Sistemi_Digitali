@@ -1,0 +1,262 @@
+
+*** Running vivado
+    with args -log rete_16_4.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source rete_16_4.tcl
+
+
+
+****** Vivado v2022.1 (64-bit)
+  **** SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+  **** IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source rete_16_4.tcl -notrace
+create_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1269.672 ; gain = 0.000
+Command: read_checkpoint -auto_incremental -incremental C:/Users/plett/OneDrive/Desktop/Projects_ASDI/mux_16_1/mux_16_1.srcs/utils_1/imports/synth_1/mux_16_1.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/plett/OneDrive/Desktop/Projects_ASDI/mux_16_1/mux_16_1.srcs/utils_1/imports/synth_1/mux_16_1.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top rete_16_4 -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 11412
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1269.672 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'rete_16_4' [C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_1_Reti_Combinatorie_Elementari/rete_16_4_board/rete_16_4_board.srcs/sources_1/new/rete_16_4.vhd:35]
+INFO: [Synth 8-3491] module 'mux_16_1' declared at 'C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_1_Reti_Combinatorie_Elementari/rete_16_4_board/rete_16_4_board.srcs/sources_1/new/mux_16_1.vhd:5' bound to instance 'mux' of component 'mux_16_1' [C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_1_Reti_Combinatorie_Elementari/rete_16_4_board/rete_16_4_board.srcs/sources_1/new/rete_16_4.vhd:59]
+INFO: [Synth 8-638] synthesizing module 'mux_16_1' [C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_1_Reti_Combinatorie_Elementari/rete_16_4_board/rete_16_4_board.srcs/sources_1/new/mux_16_1.vhd:15]
+INFO: [Synth 8-3491] module 'mux_4_1' declared at 'C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_1_Reti_Combinatorie_Elementari/rete_16_4_board/rete_16_4_board.srcs/sources_1/new/mux_4_1.vhd:4' bound to instance 'm' of component 'mux_4_1' [C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_1_Reti_Combinatorie_Elementari/rete_16_4_board/rete_16_4_board.srcs/sources_1/new/mux_16_1.vhd:31]
+INFO: [Synth 8-638] synthesizing module 'mux_4_1' [C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_1_Reti_Combinatorie_Elementari/rete_16_4_board/rete_16_4_board.srcs/sources_1/new/mux_4_1.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'mux_4_1' (0#1) [C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_1_Reti_Combinatorie_Elementari/rete_16_4_board/rete_16_4_board.srcs/sources_1/new/mux_4_1.vhd:13]
+INFO: [Synth 8-3491] module 'mux_4_1' declared at 'C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_1_Reti_Combinatorie_Elementari/rete_16_4_board/rete_16_4_board.srcs/sources_1/new/mux_4_1.vhd:4' bound to instance 'm' of component 'mux_4_1' [C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_1_Reti_Combinatorie_Elementari/rete_16_4_board/rete_16_4_board.srcs/sources_1/new/mux_16_1.vhd:31]
+INFO: [Synth 8-3491] module 'mux_4_1' declared at 'C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_1_Reti_Combinatorie_Elementari/rete_16_4_board/rete_16_4_board.srcs/sources_1/new/mux_4_1.vhd:4' bound to instance 'm' of component 'mux_4_1' [C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_1_Reti_Combinatorie_Elementari/rete_16_4_board/rete_16_4_board.srcs/sources_1/new/mux_16_1.vhd:31]
+INFO: [Synth 8-3491] module 'mux_4_1' declared at 'C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_1_Reti_Combinatorie_Elementari/rete_16_4_board/rete_16_4_board.srcs/sources_1/new/mux_4_1.vhd:4' bound to instance 'm' of component 'mux_4_1' [C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_1_Reti_Combinatorie_Elementari/rete_16_4_board/rete_16_4_board.srcs/sources_1/new/mux_16_1.vhd:31]
+INFO: [Synth 8-3491] module 'mux_4_1' declared at 'C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_1_Reti_Combinatorie_Elementari/rete_16_4_board/rete_16_4_board.srcs/sources_1/new/mux_4_1.vhd:4' bound to instance 'mux_4' of component 'mux_4_1' [C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_1_Reti_Combinatorie_Elementari/rete_16_4_board/rete_16_4_board.srcs/sources_1/new/mux_16_1.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'mux_16_1' (0#1) [C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_1_Reti_Combinatorie_Elementari/rete_16_4_board/rete_16_4_board.srcs/sources_1/new/mux_16_1.vhd:15]
+INFO: [Synth 8-3491] module 'demux_1_4' declared at 'C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_1_Reti_Combinatorie_Elementari/rete_16_4_board/rete_16_4_board.srcs/sources_1/new/demux_1_4.vhd:26' bound to instance 'demux' of component 'demux_1_4' [C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_1_Reti_Combinatorie_Elementari/rete_16_4_board/rete_16_4_board.srcs/sources_1/new/rete_16_4.vhd:66]
+INFO: [Synth 8-638] synthesizing module 'demux_1_4' [C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_1_Reti_Combinatorie_Elementari/rete_16_4_board/rete_16_4_board.srcs/sources_1/new/demux_1_4.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'demux_1_4' (0#1) [C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_1_Reti_Combinatorie_Elementari/rete_16_4_board/rete_16_4_board.srcs/sources_1/new/demux_1_4.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'rete_16_4' (0#1) [C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_1_Reti_Combinatorie_Elementari/rete_16_4_board/rete_16_4_board.srcs/sources_1/new/rete_16_4.vhd:35]
+WARNING: [Synth 8-7129] Port a[0] in module rete_16_4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[1] in module rete_16_4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[2] in module rete_16_4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[3] in module rete_16_4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[4] in module rete_16_4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[5] in module rete_16_4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[6] in module rete_16_4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[7] in module rete_16_4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[8] in module rete_16_4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[9] in module rete_16_4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[10] in module rete_16_4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[11] in module rete_16_4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[12] in module rete_16_4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[13] in module rete_16_4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[14] in module rete_16_4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[15] in module rete_16_4 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:29 ; elapsed = 00:00:32 . Memory (MB): peak = 1269.672 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:29 ; elapsed = 00:00:32 . Memory (MB): peak = 1269.672 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:29 ; elapsed = 00:00:32 . Memory (MB): peak = 1269.672 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1269.672 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_1_Reti_Combinatorie_Elementari/rete_16_4_board/Nexys-A7-100T-Master.xdc]
+Finished Parsing XDC File [C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_1_Reti_Combinatorie_Elementari/rete_16_4_board/Nexys-A7-100T-Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_1_Reti_Combinatorie_Elementari/rete_16_4_board/Nexys-A7-100T-Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/rete_16_4_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/rete_16_4_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1344.391 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 1344.391 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:58 ; elapsed = 00:01:04 . Memory (MB): peak = 1344.391 ; gain = 74.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:58 ; elapsed = 00:01:05 . Memory (MB): peak = 1344.391 ; gain = 74.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:58 ; elapsed = 00:01:05 . Memory (MB): peak = 1344.391 ; gain = 74.719
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-327] inferring latch for variable 'z_reg' [C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_1_Reti_Combinatorie_Elementari/rete_16_4_board/rete_16_4_board.srcs/sources_1/new/demux_1_4.vhd:41]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:59 ; elapsed = 00:01:06 . Memory (MB): peak = 1344.391 ; gain = 74.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input    4 Bit        Muxes := 1     
+	   4 Input    1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port a[0] in module rete_16_4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[1] in module rete_16_4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[2] in module rete_16_4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[3] in module rete_16_4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[4] in module rete_16_4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[5] in module rete_16_4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[6] in module rete_16_4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[7] in module rete_16_4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[8] in module rete_16_4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[9] in module rete_16_4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[10] in module rete_16_4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[11] in module rete_16_4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[12] in module rete_16_4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[13] in module rete_16_4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[14] in module rete_16_4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[15] in module rete_16_4 is either unconnected or has no load
+WARNING: [Synth 8-3332] Sequential element (demux/z_reg[0]) is unused and will be removed from module rete_16_4.
+WARNING: [Synth 8-3332] Sequential element (demux/z_reg[1]) is unused and will be removed from module rete_16_4.
+WARNING: [Synth 8-3332] Sequential element (demux/z_reg[2]) is unused and will be removed from module rete_16_4.
+WARNING: [Synth 8-3332] Sequential element (demux/z_reg[3]) is unused and will be removed from module rete_16_4.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:07 ; elapsed = 00:01:17 . Memory (MB): peak = 1344.391 ; gain = 74.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:33 ; elapsed = 00:01:52 . Memory (MB): peak = 1344.391 ; gain = 74.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:33 ; elapsed = 00:01:52 . Memory (MB): peak = 1344.391 ; gain = 74.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:33 ; elapsed = 00:01:52 . Memory (MB): peak = 1344.391 ; gain = 74.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:02:03 ; elapsed = 00:02:23 . Memory (MB): peak = 1344.391 ; gain = 74.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:03 ; elapsed = 00:02:23 . Memory (MB): peak = 1344.391 ; gain = 74.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:03 ; elapsed = 00:02:23 . Memory (MB): peak = 1344.391 ; gain = 74.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:03 ; elapsed = 00:02:23 . Memory (MB): peak = 1344.391 ; gain = 74.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:03 ; elapsed = 00:02:23 . Memory (MB): peak = 1344.391 ; gain = 74.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:03 ; elapsed = 00:02:23 . Memory (MB): peak = 1344.391 ; gain = 74.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT6 |     4|
+|2     |IBUF |     6|
+|3     |OBUF |     4|
++------+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:03 ; elapsed = 00:02:23 . Memory (MB): peak = 1344.391 ; gain = 74.719
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 22 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:29 ; elapsed = 00:02:17 . Memory (MB): peak = 1344.391 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:02:04 ; elapsed = 00:02:24 . Memory (MB): peak = 1344.391 ; gain = 74.719
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1344.391 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1344.391 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: 7e1a12ce
+INFO: [Common 17-83] Releasing license: Synthesis
+34 Infos, 38 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:02:19 ; elapsed = 00:03:13 . Memory (MB): peak = 1344.391 ; gain = 74.719
+INFO: [Common 17-1381] The checkpoint 'C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_1_Reti_Combinatorie_Elementari/rete_16_4_board/rete_16_4_board.runs/synth_1/rete_16_4.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file rete_16_4_utilization_synth.rpt -pb rete_16_4_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Feb  4 17:15:47 2023...

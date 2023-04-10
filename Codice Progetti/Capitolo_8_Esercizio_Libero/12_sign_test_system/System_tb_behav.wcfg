@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="System_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="System_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="805.500 ns"></ZoomStartTime>
+      <ZoomEndTime time="892.401 ns"></ZoomEndTime>
+      <Cursor1Time time="1,000.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="197"></NameColumnWidth>
+      <ValueColumnWidth column_width="84"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/System_tb/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/System_tb/RST" type="logic">
+      <obj_property name="ElementShortName">RST</obj_property>
+      <obj_property name="ObjectShortName">RST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/System_tb/START" type="logic">
+      <obj_property name="ElementShortName">START</obj_property>
+      <obj_property name="ObjectShortName">START</obj_property>
+   </wvobject>
+   <wvobject fp_name="/System_tb/uut/UO_B/MEM1/MEM" type="array">
+      <obj_property name="ElementShortName">MEM[0:7][0:4]</obj_property>
+      <obj_property name="ObjectShortName">MEM[0:7][0:4]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/System_tb/uut/UO_B/MEM2/MEM" type="array">
+      <obj_property name="ElementShortName">MEM[0:7][0:4]</obj_property>
+      <obj_property name="ObjectShortName">MEM[0:7][0:4]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/System_tb/uut/UC_A/curr" type="other">
+      <obj_property name="ElementShortName">curr</obj_property>
+      <obj_property name="ObjectShortName">curr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/System_tb/uut/UC_B/curr" type="other">
+      <obj_property name="ElementShortName">curr</obj_property>
+      <obj_property name="ObjectShortName">curr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/System_tb/uut/UC_A/en_read" type="logic">
+      <obj_property name="ElementShortName">en_read</obj_property>
+      <obj_property name="ObjectShortName">en_read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/System_tb/uut/UO_A/adder/a" type="array">
+      <obj_property name="ElementShortName">a[0:3]</obj_property>
+      <obj_property name="ObjectShortName">a[0:3]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/System_tb/uut/UO_A/adder/b" type="array">
+      <obj_property name="ElementShortName">b[0:3]</obj_property>
+      <obj_property name="ObjectShortName">b[0:3]</obj_property>
+   </wvobject>
+</wave_config>

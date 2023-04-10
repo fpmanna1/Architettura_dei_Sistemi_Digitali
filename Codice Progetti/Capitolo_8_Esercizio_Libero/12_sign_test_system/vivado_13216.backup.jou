@@ -1,0 +1,32 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Mon Feb 27 18:45:56 2023
+# Process ID: 13216
+# Current directory: C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_8_Esercizio_Libero/12_sign_test_system
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15952 C:\Users\nokia\Desktop\Projects_ASDI\Capitolo_8_Esercizio_Libero\12_sign_test_system\12_sign_test_system.xpr
+# Log file: C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_8_Esercizio_Libero/12_sign_test_system/vivado.log
+# Journal file: C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_8_Esercizio_Libero/12_sign_test_system\vivado.jou
+# Running On: HP_ENVY_x360, OS: Windows, CPU Frequency: 2371 MHz, CPU Physical cores: 6, Host memory: 7932 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_8_Esercizio_Libero/12_sign_test_system/12_sign_test_system.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_8_Esercizio_Libero/12_sign_test_system/System_tb_behav.wcfg
+source System_tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_8_Esercizio_Libero/12_sign_test_system/System_tb_behav.wcfg
+source System_tb.tcl
+save_wave_config {C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_8_Esercizio_Libero/12_sign_test_system/System_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_8_Esercizio_Libero/12_sign_test_system/System_tb_behav.wcfg
+source System_tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_8_Esercizio_Libero/12_sign_test_system/System_tb_behav.wcfg
+source System_tb.tcl
+close_sim

@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Thu Mar 23 10:10:19 2023
+# Process ID: 3760
+# Current directory: C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_8_Esercizio_Libero/12_sign_test_system
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22152 C:\Users\nokia\Desktop\Projects_ASDI\Capitolo_8_Esercizio_Libero\12_sign_test_system\12_sign_test_system.xpr
+# Log file: C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_8_Esercizio_Libero/12_sign_test_system/vivado.log
+# Journal file: C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_8_Esercizio_Libero/12_sign_test_system\vivado.jou
+# Running On: Yoga_7i, OS: Windows, CPU Frequency: 3110 MHz, CPU Physical cores: 12, Host memory: 16890 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_8_Esercizio_Libero/12_sign_test_system/12_sign_test_system.xpr
+update_compile_order -fileset sources_1

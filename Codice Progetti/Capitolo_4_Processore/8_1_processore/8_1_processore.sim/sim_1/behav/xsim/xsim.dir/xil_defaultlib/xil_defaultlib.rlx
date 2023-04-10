@@ -1,0 +1,12 @@
+0.7
+2020.2
+Apr 18 2022
+16:05:34
+C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/vhdl/alu.vhd,1610459682,vhdl,C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/vhdl/datapath.vhd,,,alu,,,,,,,,
+C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/vhdl/common_defs.vhd,1610459682,vhdl,C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/vhdl/alu.vhd;C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/vhdl/control_store.vhd;C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/vhdl/control_unit.vhd;C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/vhdl/datapath.vhd;C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/vhdl/dp_ar_ram.vhd;C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/vhdl/processor.vhd;C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/vhdl/system.vhd,,,common_defs,,,,,,,,
+C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/vhdl/control_store.vhd,1610459682,vhdl,C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/vhdl/control_unit.vhd,,,control_store,,,,,,,,
+C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/vhdl/control_unit.vhd,1610459682,vhdl,C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/vhdl/processor.vhd,,,control_unit,,,,,,,,
+C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/vhdl/datapath.vhd,1610459682,vhdl,C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/vhdl/processor.vhd,,,datapath,,,,,,,,
+C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/vhdl/dp_ar_ram.vhd,1610459682,vhdl,C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/vhdl/system.vhd,,,dp_ar_ram,,,,,,,,
+C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/vhdl/processor.vhd,1610459682,vhdl,C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/vhdl/system.vhd,,,processor,,,,,,,,
+C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/vhdl/system.vhd,1610459682,vhdl,,,,system,,,,,,,,

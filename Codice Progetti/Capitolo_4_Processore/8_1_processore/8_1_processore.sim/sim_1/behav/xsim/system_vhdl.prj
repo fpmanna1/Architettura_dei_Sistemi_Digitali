@@ -1,0 +1,13 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../vhdl/common_defs.vhd" \
+"../../../../../vhdl/alu.vhd" \
+"../../../../../vhdl/control_store.vhd" \
+"../../../../../vhdl/control_unit.vhd" \
+"../../../../../vhdl/datapath.vhd" \
+"../../../../../vhdl/dp_ar_ram.vhd" \
+"../../../../../vhdl/processor.vhd" \
+"../../../../../vhdl/system.vhd" \
+
+# Do not sort compile order
+nosort

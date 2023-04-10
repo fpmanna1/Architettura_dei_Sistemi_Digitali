@@ -1,0 +1,4 @@
+iand = 0x7E:
+		MAR = SP = SP - 1; rd
+		H = TOS
+		MDR = TOS = MDR OR H; wr; goto main

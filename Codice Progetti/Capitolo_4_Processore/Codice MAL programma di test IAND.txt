@@ -1,0 +1,10 @@
+.main
+.var
+res
+.endvar
+BIPUSH 0xC
+BIPUSH 0x6
+IAND
+ISTORE res
+HALT
+.endmethod

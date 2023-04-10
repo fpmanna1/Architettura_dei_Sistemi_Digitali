@@ -1,0 +1,15 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/vhdl/common_defs.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/vhdl/alu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/vhdl/control_store.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'control_store'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/vhdl/control_unit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'control_unit'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/vhdl/datapath.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'datapath'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/vhdl/dp_ar_ram.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'dp_ar_ram'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/vhdl/processor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'processor'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_4_Processore/vhdl/system.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'system'

@@ -1,0 +1,14 @@
+0.7
+2020.2
+Apr 18 2022
+16:05:34
+C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_6_Switch_Multistadio/10_switch_multistadio/10_switch_multistadio.srcs/sim_1/new/omega_network_TB.vhd,1677627326,vhdl,,,,testbench,,,,,,,,
+C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_6_Switch_Multistadio/10_switch_multistadio/10_switch_multistadio.srcs/sources_1/new/Unita_Controllo.vhd,1677674078,vhdl,,,,unita_controllo,,,,,,,,
+C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_6_Switch_Multistadio/10_switch_multistadio/10_switch_multistadio.srcs/sources_1/new/Unita_Operativa.vhd,1677663497,vhdl,,,,unita_operativa,,,,,,,,
+C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_6_Switch_Multistadio/10_switch_multistadio/10_switch_multistadio.srcs/sources_1/new/arbitro_priorita.vhd,1677598916,vhdl,,,,arbitro,,,,,,,,
+C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_6_Switch_Multistadio/10_switch_multistadio/10_switch_multistadio.srcs/sources_1/new/demux_1_2.vhd,1677598459,vhdl,,,,demux_1_2,,,,,,,,
+C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_6_Switch_Multistadio/10_switch_multistadio/10_switch_multistadio.srcs/sources_1/new/demux_1_4.vhd,1677598630,vhdl,,,,demux_1_4,,,,,,,,
+C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_6_Switch_Multistadio/10_switch_multistadio/10_switch_multistadio.srcs/sources_1/new/mux_2_1.vhd,1677598446,vhdl,,,,mux_2_1,,,,,,,,
+C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_6_Switch_Multistadio/10_switch_multistadio/10_switch_multistadio.srcs/sources_1/new/mux_4_1.vhd,1677623131,vhdl,,,,mux_4_1,,,,,,,,
+C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_6_Switch_Multistadio/10_switch_multistadio/10_switch_multistadio.srcs/sources_1/new/switch.vhd,1677625670,vhdl,,,,switch,,,,,,,,
+C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_6_Switch_Multistadio/10_switch_multistadio/10_switch_multistadio.srcs/sources_1/new/system.vhd,1677625874,vhdl,,,,system,,,,,,,,

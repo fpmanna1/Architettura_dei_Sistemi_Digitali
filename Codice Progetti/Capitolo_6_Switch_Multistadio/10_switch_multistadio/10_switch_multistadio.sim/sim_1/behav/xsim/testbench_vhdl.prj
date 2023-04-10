@@ -1,0 +1,15 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../10_switch_multistadio.srcs/sources_1/new/Unita_Controllo.vhd" \
+"../../../../10_switch_multistadio.srcs/sources_1/new/Unita_Operativa.vhd" \
+"../../../../10_switch_multistadio.srcs/sources_1/new/arbitro_priorita.vhd" \
+"../../../../10_switch_multistadio.srcs/sources_1/new/demux_1_2.vhd" \
+"../../../../10_switch_multistadio.srcs/sources_1/new/demux_1_4.vhd" \
+"../../../../10_switch_multistadio.srcs/sources_1/new/mux_2_1.vhd" \
+"../../../../10_switch_multistadio.srcs/sources_1/new/mux_4_1.vhd" \
+"../../../../10_switch_multistadio.srcs/sources_1/new/switch.vhd" \
+"../../../../10_switch_multistadio.srcs/sources_1/new/system.vhd" \
+"../../../../10_switch_multistadio.srcs/sim_1/new/omega_network_TB.vhd" \
+
+# Do not sort compile order
+nosort

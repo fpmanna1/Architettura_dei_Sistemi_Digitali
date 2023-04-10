@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Wed Mar  1 13:36:33 2023
+# Process ID: 14712
+# Current directory: C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_6_Switch_Multistadio/10_switch_multistadio
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7520 C:\Users\nokia\Desktop\Projects_ASDI\Capitolo_6_Switch_Multistadio\10_switch_multistadio\10_switch_multistadio.xpr
+# Log file: C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_6_Switch_Multistadio/10_switch_multistadio/vivado.log
+# Journal file: C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_6_Switch_Multistadio/10_switch_multistadio\vivado.jou
+# Running On: HP_ENVY_x360, OS: Windows, CPU Frequency: 2371 MHz, CPU Physical cores: 6, Host memory: 7932 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_6_Switch_Multistadio/10_switch_multistadio/10_switch_multistadio.xpr
+update_compile_order -fileset sources_1
+launch_simulation

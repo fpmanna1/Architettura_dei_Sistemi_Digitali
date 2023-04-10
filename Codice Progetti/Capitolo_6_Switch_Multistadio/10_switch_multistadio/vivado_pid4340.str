@@ -1,0 +1,445 @@
+/*
+
+Xilinx Vivado v2022.1 (64-bit) [Major: 2022, Minor: 1]
+SW Build: 3526262 on Mon Apr 18 15:48:16 MDT 2022
+IP Build: 3524634 on Mon Apr 18 20:55:01 MDT 2022
+
+Process ID (PID): 4340
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Wed Mar 01 10:21:08 CET 2023
+Time zone: 	Central European Standard Time (Europe/Berlin)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 6
+
+Screen size: 1920x1080
+Screen resolution (DPI): 125
+Available screens: 1
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=15
+Scale size: 19
+
+Java version: 	11.0.11 64-bit
+Java home: 	C:/Xilinx/Vivado/2022.1/tps/win64/jre11.0.11_9
+Java executable: 	C:/Xilinx/Vivado/2022.1/tps/win64/jre11.0.11_9/bin/java.exe
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Dsun.java2d.d3d=false, -Dsun.awt.nopixfmt=true, -Dsun.java2d.dpiaware=true, -Dsun.java2d.uiScale.enabled=false, -Xverify:none, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, --add-opens=java.desktop/com.sun.awt=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, -XX:NewSize=60m, -XX:MaxNewSize=60m, -Xms256m, -Xmx3072m, -Xss5m]
+Java initial memory (-Xms): 	256 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	nokia
+User home directory: C:/Users/nokia
+User working directory: C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_6_Switch_Multistadio/10_switch_multistadio
+User country: 	GB
+User language: 	en
+User locale: 	en_GB
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2022.1
+RDI_DATADIR: C:/Xilinx/Vivado/2022.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2022.1/bin
+
+Vivado preferences file: C:/Users/nokia/AppData/Roaming/Xilinx/Vivado/2022.1/vivado.xml
+Vivado preferences directory: C:/Users/nokia/AppData/Roaming/Xilinx/Vivado/2022.1/
+Vivado layouts directory: C:/Users/nokia/AppData/Roaming/Xilinx/Vivado/2022.1/data/layouts
+PlanAhead jar file: 	C:/Xilinx/Vivado/2022.1/lib/classes/planAhead.jar
+Vivado log file: 	C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_6_Switch_Multistadio/10_switch_multistadio/vivado.log
+Vivado journal file: 	C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_6_Switch_Multistadio/10_switch_multistadio/vivado.jou
+Engine tmp dir: 	C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_6_Switch_Multistadio/10_switch_multistadio/.Xil/Vivado-4340-HP_ENVY_x360
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2022.1/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2022.1/ids_lite/ISE
+XILINX_HLS: C:/Xilinx/Vitis_HLS/2022.1
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2022.1
+XILINX_VIVADO: C:/Xilinx/Vivado/2022.1
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2022.1
+
+
+GUI allocated memory:	256 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,436 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: C:\Users\nokia\Desktop\Projects_ASDI\Capitolo_6_Switch_Multistadio\10_switch_multistadio\10_switch_multistadio.xpr. Version: Vivado v2022.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_6_Switch_Multistadio/10_switch_multistadio/10_switch_multistadio.xpr 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_6_Switch_Multistadio/10_switch_multistadio' 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,436 MB. GUI used memory: 58 MB. Current time: 3/1/23, 10:21:09 AM CET
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 64 MB (+64387kb) [00:00:12]
+// [Engine Memory]: 1,436 MB (+1354164kb) [00:00:12]
+// [GUI Memory]: 82 MB (+15233kb) [00:00:13]
+// WARNING: HEventQueue.dispatchEvent() is taking  2072 ms.
+// Tcl Message: open_project C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_6_Switch_Multistadio/10_switch_multistadio/10_switch_multistadio.xpr 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_6_Switch_Multistadio/10_switch_multistadio' 
+// Tcl Message: INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_6_Switch_Multistadio/10_switch_multistadio/10_switch_multistadio.gen/sources_1'. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.1/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1627.141 ; gain = 0.000 
+// Project name: 10_switch_multistadio; location: C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_6_Switch_Multistadio/10_switch_multistadio; part: xc7a100tcsg324-1
+dismissDialog("Open Project"); // bA
+// [GUI Memory]: 95 MB (+9384kb) [00:00:17]
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 121 MB (+22346kb) [00:00:21]
+// Elapsed time: 19 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system(structural) (system.vhd)]", 1); // D
+// PAPropertyPanels.initPanels (Unita_Operativa.vhd) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system(structural) (system.vhd), op_unit : Unita_Operativa(Structural) (Unita_Operativa.vhd)]", 3, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system(structural) (system.vhd), op_unit : Unita_Operativa(Structural) (Unita_Operativa.vhd), s1 : switch(Structural) (switch.vhd)]", 5, true, false, false, false, false, true); // D - Double Click - Node
+// Elapsed time: 66 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system(structural) (system.vhd), op_unit : Unita_Operativa(Structural) (Unita_Operativa.vhd), s0 : switch(Structural) (switch.vhd)]", 4, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system(structural) (system.vhd), op_unit : Unita_Operativa(Structural) (Unita_Operativa.vhd), s0 : switch(Structural) (switch.vhd)]", 4, true, false, false, false, false, true); // D - Double Click - Node
+// Elapsed time: 153 seconds
+selectButton(PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV, (String) null); // D
+// Run Command: PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV
+// Elapsed time: 567 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Unita_Operativa.vhd", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Unita_Operativa.vhd", 1); // m
+// Elapsed time: 100 seconds
+selectCodeEditor("Unita_Operativa.vhd", 217, 248); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 67 seconds
+selectCodeEditor("Unita_Operativa.vhd", 174, 236); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 20 seconds
+selectCodeEditor("Unita_Operativa.vhd", 230, 216); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 127 MB (+601kb) [00:17:09]
+// Elapsed time: 11 seconds
+selectCodeEditor("Unita_Operativa.vhd", 229, 219); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 25 seconds
+selectTab((HResource) null, (HResource) null, "Source File Properties", 0); // aL
+selectButton(PAResourceOtoP.PlanAheadTab_SHOW_FLOW_NAVIGATOR, "Flow Navigator"); // B
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // n
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ar
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-12493] Simulation top is 'testbench' 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_6_Switch_Multistadio/10_switch_multistadio/10_switch_multistadio.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0' INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_6_Switch_Multistadio/10_switch_multistadio/10_switch_multistadio.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj testbench_vhdl.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_6_Switch_Multistadio/10_switch_multistadio/10_switch_multistadio.srcs/sources_1/new/Unita_Operativa.vhd" into library xil_defaultlib INFO: [VRFC 10-3107] analyzing entity 'Unita_Operativa' INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_6_Switch_Multistadio/10_switch_multistadio/10_switch_multistadio.srcs/sim_1/new/omega_network_TB.vhd" into library xil_defaultlib INFO: [VRFC 10-3107] analyzing entity 'testbench' 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_6_Switch_Multistadio/10_switch_multistadio/10_switch_multistadio.sim/sim_1/behav/xsim' 
+// Tcl Message: "xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot testbench_behav xil_defaultlib.testbench -log elaborate.log" 
+// TclEventType: LAUNCH_SIM
+// TclEventType: LOAD_FEATURE
+// Tcl Message: Built simulation snapshot testbench_behav 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_6_Switch_Multistadio/10_switch_multistadio/10_switch_multistadio.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "testbench_behav -key {Behavioral:sim_1:Functional:testbench} -tclbatch {testbench.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// WARNING: HEventQueue.dispatchEvent() is taking  1158 ms.
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// Elapsed time: 10 seconds
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: source testbench.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,436 MB. GUI used memory: 83 MB. Current time: 3/1/23, 10:39:07 AM CET
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'testbench_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:11 . Memory (MB): peak = 1627.141 ; gain = 0.000 
+// 'd' command handler elapsed time: 11 seconds
+dismissDialog("Run Simulation"); // e
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,436 MB. GUI used memory: 138 MB. Current time: 3/1/23, 10:39:14 AM CET
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // N
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // D
+// [GUI Memory]: 145 MB (+11660kb) [00:20:38]
+// Elapsed time: 292 seconds
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12); // n
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12); // n
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 15, false); // n
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Elaborate Design"); // A
+// Tcl Message: synth_design -rtl -rtl_skip_mlo -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -rtl_skip_mlo -name rtl_1 Starting synth_design Using part: xc7a100tcsg324-1 Top: system 
+// TclEventType: ELABORATE_START
+// HMemoryUtils.trashcanNow. Engine heap size: 1,733 MB. GUI used memory: 76 MB. Current time: 3/1/23, 10:44:35 AM CET
+// TclEventType: ELABORATE_FINISH
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,856 MB. GUI used memory: 75 MB. Current time: 3/1/23, 10:44:42 AM CET
+// [Engine Memory]: 1,856 MB (+365409kb) [00:23:43]
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// WARNING: HEventQueue.dispatchEvent() is taking  1766 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Device 21-403] Loading part xc7a100tcsg324-1 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1889.773 ; gain = 262.633 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 1995.672 ; gain = 368.531 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 1995.672 ; gain = 368.531 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 1995.672 ; gain = 368.531 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1995.672 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Completed Processing XDC Constraints  
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2022.934 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Tcl Message: RTL Elaboration Complete:  : Time (s): cpu = 00:00:04 ; elapsed = 00:00:14 . Memory (MB): peak = 2084.852 ; gain = 457.711 
+// Tcl Message: 34 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:31 . Memory (MB): peak = 2084.852 ; gain = 457.711 
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// Elapsed time: 31 seconds
+dismissDialog("Open Elaborated Design"); // bA
+// [GUI Memory]: 162 MB (+10430kb) [00:25:50]
+// Elapsed time: 140 seconds
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // F
+selectButton(PAResourceCommand.PACommandNames_ZOOM_FIT, "Schematic_zoom_fit"); // D
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_FIT
+// Elapsed time: 45 seconds
+selectButton(PAResourceCommand.PACommandNames_ZOOM_FIT, "Schematic_zoom_fit"); // D
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_FIT
+// Elapsed time: 356 seconds
+selectButton(PAResourceCommand.PACommandNames_ZOOM_FIT, "Schematic_zoom_fit"); // D
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_FIT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "Schematic_zoom_in"); // D
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+selectButton(PAResourceCommand.PACommandNames_ZOOM_FIT, "Schematic_zoom_fit"); // D
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_FIT
+// Elapsed time: 46 seconds
+selectButton(PAResourceCommand.PACommandNames_ZOOM_FIT, "Schematic_zoom_fit"); // D
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_FIT
+// PAPropertyPanels.initPanels (control_unit (Unita_Controllo)) elapsed time: 0.4s
+selectButton(PAResourceCommand.PACommandNames_ZOOM_FIT, "Schematic_zoom_fit"); // D
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_FIT
+// Elapsed time: 28 seconds
+selectButton(PAResourceCommand.PACommandNames_ZOOM_FIT, "Schematic_zoom_fit"); // D
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_FIT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_FIT, "Schematic_zoom_fit"); // D
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_FIT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "Schematic_zoom_in"); // D
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "Schematic_zoom_in"); // D
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+// HMemoryUtils.trashcanNow. Engine heap size: 1,906 MB. GUI used memory: 99 MB. Current time: 3/1/23, 11:14:43 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,906 MB. GUI used memory: 87 MB. Current time: 3/1/23, 11:44:46 AM CET
+// Elapsed time: 4529 seconds
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aA
+// PAPropertyPanels.initPanels (mux_2_1.vhd) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system(structural) (system.vhd), op_unit : Unita_Operativa(Structural) (Unita_Operativa.vhd), s0 : switch(Structural) (switch.vhd), mux : mux_2_1(Dataflow) (mux_2_1.vhd)]", 5, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system(structural) (system.vhd), op_unit : Unita_Operativa(Structural) (Unita_Operativa.vhd), s0 : switch(Structural) (switch.vhd), mux : mux_2_1(Dataflow) (mux_2_1.vhd)]", 5, false, false, false, false, false, true); // D - Double Click
+selectCodeEditor("mux_2_1.vhd", 363, 350); // be
+selectCodeEditor("mux_2_1.vhd", 439, 280); // be
+selectCodeEditor("mux_2_1.vhd", 439, 280); // be
+selectCodeEditor("mux_2_1.vhd", 439, 280, false, false, false, false, true); // be - Double Click
+selectCodeEditor("mux_2_1.vhd", 352, 210); // be
+typeControlKey((HResource) null, "mux_2_1.vhd", 'c'); // be
+// Elapsed time: 121 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system(structural) (system.vhd), op_unit : Unita_Operativa(Structural) (Unita_Operativa.vhd), s0 : switch(Structural) (switch.vhd), demux : demux_1_2(Dataflow) (demux_1_2.vhd)]", 6, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system(structural) (system.vhd), op_unit : Unita_Operativa(Structural) (Unita_Operativa.vhd), s0 : switch(Structural) (switch.vhd), demux : demux_1_2(Dataflow) (demux_1_2.vhd)]", 6, false, false, false, false, false, true); // D - Double Click
+selectCodeEditor("demux_1_2.vhd", 2, 90); // be
+typeControlKey((HResource) null, "demux_1_2.vhd", 'c'); // be
+// HMemoryUtils.trashcanNow. Engine heap size: 1,906 MB. GUI used memory: 98 MB. Current time: 3/1/23, 12:14:49 PM CET
+// Elapsed time: 296 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "switch.vhd", 3); // m
+selectCodeEditor("switch.vhd", 255, 275); // be
+typeControlKey((HResource) null, "switch.vhd", 'c'); // be
+// Elapsed time: 138 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Unita_Operativa.vhd", 2); // m
+selectCodeEditor("Unita_Operativa.vhd", 264, 256); // be
+typeControlKey((HResource) null, "Unita_Operativa.vhd", 'c'); // be
+// WARNING: HEventQueue.dispatchEvent() is taking  2266530 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,906 MB. GUI used memory: 125 MB. Current time: 3/1/23, 1:02:08 PM CET
+// Elapsed time: 2641 seconds
+selectCodeEditor("Unita_Operativa.vhd", 189, 132); // be
+// Elapsed time: 555 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic (2)", 4); // m
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // F
+selectButton(PAResourceCommand.PACommandNames_ZOOM_FIT, "Schematic_zoom_fit"); // D
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_FIT
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // F
+// Elapsed time: 279 seconds
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aA
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system(structural) (system.vhd), control_unit : Unita_Controllo(structural) (Unita_Controllo.vhd)]", 2, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system(structural) (system.vhd), control_unit : Unita_Controllo(structural) (Unita_Controllo.vhd)]", 2, true, false, false, false, false, true); // D - Double Click - Node
+// Elapsed time: 16 seconds
+selectCodeEditor("Unita_Controllo.vhd", 222, 291); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 45 seconds
+selectCodeEditor("Unita_Controllo.vhd", 486, 164); // be
+// Elapsed time: 25 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic (2)", 4); // m
+selectButton(PAResourceCommand.PACommandNames_ZOOM_FIT, "Schematic_zoom_fit"); // D
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_FIT
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // F
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // F
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "Schematic_zoom_in"); // D
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "Schematic_zoom_in"); // D
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+// Elapsed time: 34 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Unita_Controllo.vhd", 7); // m
+// Elapsed time: 18 seconds
+selectCodeEditor("Unita_Controllo.vhd", 234, 238); // be
+// TclEventType: DESIGN_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 29 seconds
+selectCodeEditor("Unita_Controllo.vhd", 194, 609); // be
+// Elapsed time: 93 seconds
+selectCodeEditor("Unita_Controllo.vhd", 767, 243); // be
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aA
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system(structural) (system.vhd), control_unit : Unita_Controllo(structural) (Unita_Controllo.vhd), mux : mux_4_1(dataflow) (mux_4_1.vhd)]", 3, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system(structural) (system.vhd), control_unit : Unita_Controllo(structural) (Unita_Controllo.vhd), mux : mux_4_1(dataflow) (mux_4_1.vhd)]", 3, false, false, false, false, false, true); // D - Double Click
+selectCodeEditor("mux_4_1.vhd", 215, 273); // be
+typeControlKey((HResource) null, "mux_4_1.vhd", 'c'); // be
+// Elapsed time: 72 seconds
+selectCodeEditor("mux_4_1.vhd", 329, 209); // be
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Unita_Controllo.vhd", 7); // m
+// TclEventType: DESIGN_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system(structural) (system.vhd), control_unit : Unita_Controllo(structural) (Unita_Controllo.vhd), demux : demux_1_4(dataflow) (demux_1_4.vhd)]", 4, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system(structural) (system.vhd), control_unit : Unita_Controllo(structural) (Unita_Controllo.vhd), demux : demux_1_4(dataflow) (demux_1_4.vhd)]", 4, false, false, false, false, false, true); // D - Double Click
+selectCodeEditor("demux_1_4.vhd", 278, 232); // be
+typeControlKey((HResource) null, "demux_1_4.vhd", 'c'); // be
+// Elapsed time: 47 seconds
+selectCodeEditor("demux_1_4.vhd", 258, 160); // be
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system(structural) (system.vhd), control_unit : Unita_Controllo(structural) (Unita_Controllo.vhd), arb : arbitro(Dataflow) (arbitro_priorita.vhd)]", 5, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system(structural) (system.vhd), control_unit : Unita_Controllo(structural) (Unita_Controllo.vhd), arb : arbitro(Dataflow) (arbitro_priorita.vhd)]", 5, false, false, false, false, false, true); // D - Double Click
+selectCodeEditor("arbitro_priorita.vhd", 273, 244); // be
+typeControlKey((HResource) null, "arbitro_priorita.vhd", 'c'); // be
+// Elapsed time: 112 seconds
+selectCodeEditor("arbitro_priorita.vhd", 279, 295); // be
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Unita_Controllo.vhd", 7); // m
+selectCodeEditor("Unita_Controllo.vhd", 320, 216); // be
+// Elapsed time: 24 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mux_4_1.vhd", 8); // m
+selectCodeEditor("mux_4_1.vhd", 127, 142); // be
+typeControlKey((HResource) null, "mux_4_1.vhd", 'c'); // be
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Unita_Controllo.vhd", 7); // m
+selectCodeEditor("Unita_Controllo.vhd", 804, 343); // be
+typeControlKey((HResource) null, "Unita_Controllo.vhd", 'v'); // be
+selectCodeEditor("Unita_Controllo.vhd", 142, 348); // be
+selectCodeEditor("Unita_Controllo.vhd", 283, 366); // be
+selectCodeEditor("Unita_Controllo.vhd", 216, 388); // be
+selectCodeEditor("Unita_Controllo.vhd", 222, 425); // be
+selectCodeEditor("Unita_Controllo.vhd", 221, 423); // be
+selectCodeEditor("Unita_Controllo.vhd", 209, 443); // be
+selectCodeEditor("Unita_Controllo.vhd", 235, 469); // be
+selectCodeEditor("Unita_Controllo.vhd", 221, 393); // be
+// Elapsed time: 17 seconds
+selectCodeEditor("Unita_Controllo.vhd", 198, 361); // be
+selectCodeEditor("Unita_Controllo.vhd", 198, 361, false, false, false, false, true); // be - Double Click
+selectCodeEditor("Unita_Controllo.vhd", 226, 357); // be
+selectCodeEditor("Unita_Controllo.vhd", 80, 361); // be
+selectCodeEditor("Unita_Controllo.vhd", 103, 287); // be
+selectCodeEditor("Unita_Controllo.vhd", 165, 390); // be
+selectCodeEditor("Unita_Controllo.vhd", 91, 392); // be
+selectCodeEditor("Unita_Controllo.vhd", 84, 299); // be
+selectCodeEditor("Unita_Controllo.vhd", 272, 329); // be

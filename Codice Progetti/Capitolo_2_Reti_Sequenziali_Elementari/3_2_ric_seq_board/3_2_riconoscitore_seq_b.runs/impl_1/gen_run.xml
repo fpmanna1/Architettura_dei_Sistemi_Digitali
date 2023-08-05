@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1675957013">
+  <File Type="ROUTE-PWR" Name="ric_seq_onboard_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="ric_seq_onboard.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="ric_seq_onboard_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="ric_seq_onboard_reports.tcl"/>
+  <File Type="BITSTR-MSK" Name="ric_seq_onboard.msk"/>
+  <File Type="ROUTE-CLK" Name="ric_seq_onboard_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="ric_seq_onboard.vdi"/>
+  <File Type="BG-BIT" Name="ric_seq_onboard.bit"/>
+  <File Type="BG-DRC" Name="ric_seq_onboard.drc"/>
+  <File Type="BG-BGN" Name="ric_seq_onboard.bgn"/>
+  <File Type="BG-BIN" Name="ric_seq_onboard.bin"/>
+  <File Type="BITSTR-RBT" Name="ric_seq_onboard.rbt"/>
+  <File Type="BITSTR-NKY" Name="ric_seq_onboard.nky"/>
+  <File Type="BITSTR-BMM" Name="ric_seq_onboard_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="ric_seq_onboard.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="ric_seq_onboard_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-SYSDEF" Name="ric_seq_onboard.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="ric_seq_onboard.ltx"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-DRC" Name="ric_seq_onboard_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="ric_seq_onboard.hwdef"/>
+  <File Type="PLACE-IO" Name="ric_seq_onboard_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="ric_seq_onboard_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="ric_seq_onboard_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="ric_seq_onboard_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="ric_seq_onboard_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DRC" Name="ric_seq_onboard_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="ric_seq_onboard_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="ric_seq_onboard_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="ric_seq_onboard_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="ric_seq_onboard_route_status.pb"/>
+  <File Type="ROUTE-DCP" Name="ric_seq_onboard_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="ric_seq_onboard_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="ric_seq_onboard_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="ric_seq_onboard_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="ric_seq_onboard_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="ric_seq_onboard_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW" Name="ric_seq_onboard_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="ric_seq_onboard_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="ric_seq_onboard_bus_skew_routed.rpx"/>
+  <File Type="OPT-DCP" Name="ric_seq_onboard_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="ric_seq_onboard_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="ric_seq_onboard_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="ric_seq_onboard_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="ric_seq_onboard_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="ric_seq_onboard_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="ric_seq_onboard_postroute_physopt_bb.dcp"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="ric_seq_onboard_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="ric_seq_onboard_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="ric_seq_onboard_methodology_drc_routed.rpx"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/ButtonDebouncer.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ric_seq.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ric_seq_onboard.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="ric_seq_onboard"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/Nexys-A7-100T-Master.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

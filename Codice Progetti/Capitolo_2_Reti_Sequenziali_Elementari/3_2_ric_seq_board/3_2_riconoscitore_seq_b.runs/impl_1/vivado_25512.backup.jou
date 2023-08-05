@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Feb  9 13:39:34 2023
+# Process ID: 25512
+# Current directory: C:/Users/claud/VivadoProjects/3_2_riconoscitore_seq_b/3_2_riconoscitore_seq_b.runs/impl_1
+# Command line: vivado.exe -log ric_seq_onboard.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source ric_seq_onboard.tcl -notrace
+# Log file: C:/Users/claud/VivadoProjects/3_2_riconoscitore_seq_b/3_2_riconoscitore_seq_b.runs/impl_1/ric_seq_onboard.vdi
+# Journal file: C:/Users/claud/VivadoProjects/3_2_riconoscitore_seq_b/3_2_riconoscitore_seq_b.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source ric_seq_onboard.tcl -notrace

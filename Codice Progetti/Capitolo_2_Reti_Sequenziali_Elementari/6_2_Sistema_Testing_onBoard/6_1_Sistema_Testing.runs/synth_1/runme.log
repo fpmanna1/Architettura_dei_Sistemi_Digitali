@@ -1,0 +1,314 @@
+
+*** Running vivado
+    with args -log Sistema_Testing.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Sistema_Testing.tcl
+
+
+
+****** Vivado v2022.1 (64-bit)
+  **** SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+  **** IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source Sistema_Testing.tcl -notrace
+create_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1268.996 ; gain = 0.000
+Command: read_checkpoint -auto_incremental -incremental C:/Users/plett/OneDrive/Desktop/Projects_ASDI/6_1_Sistema_Testing/6_1_Sistema_Testing.srcs/utils_1/imports/synth_1/Sistema_Testing.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/plett/OneDrive/Desktop/Projects_ASDI/6_1_Sistema_Testing/6_1_Sistema_Testing.srcs/utils_1/imports/synth_1/Sistema_Testing.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top Sistema_Testing -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 7260
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 1268.996 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Sistema_Testing' [C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_2_Sistema_Testing_onBoard/6_1_Sistema_Testing.srcs/sources_1/new/Sistema_Testing.vhd:17]
+INFO: [Synth 8-3491] module 'Unita_Operativa' declared at 'C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_2_Sistema_Testing_onBoard/6_1_Sistema_Testing.srcs/sources_1/new/Unita_Operativa.vhd:5' bound to instance 'UO' of component 'Unita_Operativa' [C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_2_Sistema_Testing_onBoard/6_1_Sistema_Testing.srcs/sources_1/new/Sistema_Testing.vhd:64]
+INFO: [Synth 8-638] synthesizing module 'Unita_Operativa' [C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_2_Sistema_Testing_onBoard/6_1_Sistema_Testing.srcs/sources_1/new/Unita_Operativa.vhd:21]
+INFO: [Synth 8-3491] module 'counter' declared at 'C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_2_Sistema_Testing_onBoard/6_1_Sistema_Testing.srcs/sources_1/new/counter.vhd:5' bound to instance 'cont' of component 'counter' [C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_2_Sistema_Testing_onBoard/6_1_Sistema_Testing.srcs/sources_1/new/Unita_Operativa.vhd:89]
+INFO: [Synth 8-638] synthesizing module 'counter' [C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_2_Sistema_Testing_onBoard/6_1_Sistema_Testing.srcs/sources_1/new/counter.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'counter' (0#1) [C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_2_Sistema_Testing_onBoard/6_1_Sistema_Testing.srcs/sources_1/new/counter.vhd:14]
+INFO: [Synth 8-3491] module 'ROM_in' declared at 'C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_2_Sistema_Testing_onBoard/6_1_Sistema_Testing.srcs/sources_1/new/ROM_in.vhd:5' bound to instance 'rom_input' of component 'ROM_in' [C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_2_Sistema_Testing_onBoard/6_1_Sistema_Testing.srcs/sources_1/new/Unita_Operativa.vhd:98]
+INFO: [Synth 8-638] synthesizing module 'ROM_in' [C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_2_Sistema_Testing_onBoard/6_1_Sistema_Testing.srcs/sources_1/new/ROM_in.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'ROM_in' (0#1) [C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_2_Sistema_Testing_onBoard/6_1_Sistema_Testing.srcs/sources_1/new/ROM_in.vhd:15]
+INFO: [Synth 8-3491] module 'm_comb' declared at 'C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_2_Sistema_Testing_onBoard/6_1_Sistema_Testing.srcs/sources_1/new/m_comb.vhd:4' bound to instance 'comb' of component 'm_comb' [C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_2_Sistema_Testing_onBoard/6_1_Sistema_Testing.srcs/sources_1/new/Unita_Operativa.vhd:107]
+INFO: [Synth 8-638] synthesizing module 'm_comb' [C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_2_Sistema_Testing_onBoard/6_1_Sistema_Testing.srcs/sources_1/new/m_comb.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'm_comb' (0#1) [C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_2_Sistema_Testing_onBoard/6_1_Sistema_Testing.srcs/sources_1/new/m_comb.vhd:11]
+INFO: [Synth 8-3491] module 'MEM_out' declared at 'C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_2_Sistema_Testing_onBoard/6_1_Sistema_Testing.srcs/sources_1/new/MEM_out.vhd:5' bound to instance 'mem_output' of component 'MEM_out' [C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_2_Sistema_Testing_onBoard/6_1_Sistema_Testing.srcs/sources_1/new/Unita_Operativa.vhd:113]
+INFO: [Synth 8-638] synthesizing module 'MEM_out' [C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_2_Sistema_Testing_onBoard/6_1_Sistema_Testing.srcs/sources_1/new/MEM_out.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'MEM_out' (0#1) [C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_2_Sistema_Testing_onBoard/6_1_Sistema_Testing.srcs/sources_1/new/MEM_out.vhd:16]
+INFO: [Synth 8-3491] module 'ROM_results' declared at 'C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_2_Sistema_Testing_onBoard/6_1_Sistema_Testing.srcs/sources_1/new/ROM_results.vhd:5' bound to instance 'rom_expected_results' of component 'ROM_results' [C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_2_Sistema_Testing_onBoard/6_1_Sistema_Testing.srcs/sources_1/new/Unita_Operativa.vhd:122]
+INFO: [Synth 8-638] synthesizing module 'ROM_results' [C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_2_Sistema_Testing_onBoard/6_1_Sistema_Testing.srcs/sources_1/new/ROM_results.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'ROM_results' (0#1) [C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_2_Sistema_Testing_onBoard/6_1_Sistema_Testing.srcs/sources_1/new/ROM_results.vhd:20]
+INFO: [Synth 8-3491] module 'comparatore' declared at 'C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_2_Sistema_Testing_onBoard/6_1_Sistema_Testing.srcs/sources_1/new/comparatore.vhd:4' bound to instance 'comp' of component 'comparatore' [C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_2_Sistema_Testing_onBoard/6_1_Sistema_Testing.srcs/sources_1/new/Unita_Operativa.vhd:131]
+INFO: [Synth 8-638] synthesizing module 'comparatore' [C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_2_Sistema_Testing_onBoard/6_1_Sistema_Testing.srcs/sources_1/new/comparatore.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'comparatore' (0#1) [C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_2_Sistema_Testing_onBoard/6_1_Sistema_Testing.srcs/sources_1/new/comparatore.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'Unita_Operativa' (0#1) [C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_2_Sistema_Testing_onBoard/6_1_Sistema_Testing.srcs/sources_1/new/Unita_Operativa.vhd:21]
+INFO: [Synth 8-3491] module 'Unita_Controllo' declared at 'C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_2_Sistema_Testing_onBoard/6_1_Sistema_Testing.srcs/sources_1/new/Unita_Controllo.vhd:4' bound to instance 'UC' of component 'Unita_Controllo' [C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_2_Sistema_Testing_onBoard/6_1_Sistema_Testing.srcs/sources_1/new/Sistema_Testing.vhd:79]
+INFO: [Synth 8-638] synthesizing module 'Unita_Controllo' [C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_2_Sistema_Testing_onBoard/6_1_Sistema_Testing.srcs/sources_1/new/Unita_Controllo.vhd:22]
+	Parameter CLK_period bound to: 10 - type: integer 
+	Parameter btn_noise_time bound to: 10000000 - type: integer 
+INFO: [Synth 8-3491] module 'ButtonDebouncer' declared at 'C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_2_Sistema_Testing_onBoard/6_1_Sistema_Testing.srcs/sources_1/new/ButtonDebouncer.vhd:5' bound to instance 'read_btn' of component 'ButtonDebouncer' [C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_2_Sistema_Testing_onBoard/6_1_Sistema_Testing.srcs/sources_1/new/Unita_Controllo.vhd:49]
+INFO: [Synth 8-638] synthesizing module 'ButtonDebouncer' [C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_2_Sistema_Testing_onBoard/6_1_Sistema_Testing.srcs/sources_1/new/ButtonDebouncer.vhd:16]
+	Parameter CLK_period bound to: 10 - type: integer 
+	Parameter btn_noise_time bound to: 10000000 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_2_Sistema_Testing_onBoard/6_1_Sistema_Testing.srcs/sources_1/new/ButtonDebouncer.vhd:47]
+INFO: [Synth 8-256] done synthesizing module 'ButtonDebouncer' (0#1) [C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_2_Sistema_Testing_onBoard/6_1_Sistema_Testing.srcs/sources_1/new/ButtonDebouncer.vhd:16]
+	Parameter CLK_period bound to: 10 - type: integer 
+	Parameter btn_noise_time bound to: 10000000 - type: integer 
+INFO: [Synth 8-3491] module 'ButtonDebouncer' declared at 'C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_2_Sistema_Testing_onBoard/6_1_Sistema_Testing.srcs/sources_1/new/ButtonDebouncer.vhd:5' bound to instance 'reset_btn' of component 'ButtonDebouncer' [C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_2_Sistema_Testing_onBoard/6_1_Sistema_Testing.srcs/sources_1/new/Unita_Controllo.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Unita_Controllo' (0#1) [C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_2_Sistema_Testing_onBoard/6_1_Sistema_Testing.srcs/sources_1/new/Unita_Controllo.vhd:22]
+INFO: [Synth 8-256] done synthesizing module 'Sistema_Testing' (0#1) [C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_2_Sistema_Testing_onBoard/6_1_Sistema_Testing.srcs/sources_1/new/Sistema_Testing.vhd:17]
+WARNING: [Synth 8-6014] Unused sequential element ROM_reg[4] was removed.  [C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_2_Sistema_Testing_onBoard/6_1_Sistema_Testing.srcs/sources_1/new/ROM_results.vhd:44]
+WARNING: [Synth 8-6014] Unused sequential element ROM_reg[5] was removed.  [C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_2_Sistema_Testing_onBoard/6_1_Sistema_Testing.srcs/sources_1/new/ROM_results.vhd:44]
+WARNING: [Synth 8-6014] Unused sequential element ROM_reg[7] was removed.  [C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_2_Sistema_Testing_onBoard/6_1_Sistema_Testing.srcs/sources_1/new/ROM_results.vhd:44]
+WARNING: [Synth 8-7129] Port reset in module ROM_results is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clock in module MEM_out is either unconnected or has no load
+WARNING: [Synth 8-7129] Port reset in module MEM_out is either unconnected or has no load
+WARNING: [Synth 8-7129] Port write in module MEM_out is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[0] in module MEM_out is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[1] in module MEM_out is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[2] in module MEM_out is either unconnected or has no load
+WARNING: [Synth 8-7129] Port value[0] in module MEM_out is either unconnected or has no load
+WARNING: [Synth 8-7129] Port value[1] in module MEM_out is either unconnected or has no load
+WARNING: [Synth 8-7129] Port value[2] in module MEM_out is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 1268.996 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 1268.996 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 1268.996 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 1268.996 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_2_Sistema_Testing_onBoard/Nexys-A7-100T-Master.xdc]
+Finished Parsing XDC File [C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_2_Sistema_Testing_onBoard/Nexys-A7-100T-Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_2_Sistema_Testing_onBoard/Nexys-A7-100T-Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Sistema_Testing_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Sistema_Testing_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1347.828 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 1347.828 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:55 ; elapsed = 00:00:56 . Memory (MB): peak = 1347.828 ; gain = 78.832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:55 ; elapsed = 00:00:56 . Memory (MB): peak = 1347.828 ; gain = 78.832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:55 ; elapsed = 00:00:56 . Memory (MB): peak = 1347.828 ; gain = 78.832
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'BTN_state_reg' in module 'ButtonDebouncer'
+INFO: [Synth 8-802] inferred FSM for state register 'stato_corrente_reg' in module 'Unita_Controllo'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                released |                               00 |                               00
+            pressed_vrfy |                               01 |                               01
+          pressed_cnfrmd |                               10 |                               10
+           released_vrfy |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'BTN_state_reg' using encoding 'sequential' in module 'ButtonDebouncer'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                              000 |                              000
+          lettura_valori |                              001 |                              001
+           scrittura_ris |                              010 |                              010
+        caricamento_comp |                              011 |                              011
+            verifica_ris |                              100 |                              100
+              incrementa |                              101 |                              101
+               fine_test |                              110 |                              110
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'stato_corrente_reg' using encoding 'sequential' in module 'Unita_Controllo'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:58 ; elapsed = 00:00:59 . Memory (MB): peak = 1347.828 ; gain = 78.832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 3     
++---XORs : 
+	   4 Input      1 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 3     
+	                4 Bit    Registers := 9     
+	                3 Bit    Registers := 8     
+	                1 Bit    Registers := 12    
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 6     
+	   4 Input   32 Bit        Muxes := 2     
+	   2 Input    4 Bit        Muxes := 1     
+	   7 Input    3 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 3     
+	   4 Input    2 Bit        Muxes := 2     
+	   2 Input    2 Bit        Muxes := 8     
+	   2 Input    1 Bit        Muxes := 2     
+	   4 Input    1 Bit        Muxes := 8     
+	   7 Input    1 Bit        Muxes := 8     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port reset_mem in module Sistema_Testing is either unconnected or has no load
+WARNING: [Synth 8-3332] Sequential element (UC/read_btn/FSM_sequential_BTN_state_reg[1]) is unused and will be removed from module Sistema_Testing.
+WARNING: [Synth 8-3332] Sequential element (UC/read_btn/FSM_sequential_BTN_state_reg[0]) is unused and will be removed from module Sistema_Testing.
+WARNING: [Synth 8-3332] Sequential element (UC/reset_btn/FSM_sequential_BTN_state_reg[1]) is unused and will be removed from module Sistema_Testing.
+WARNING: [Synth 8-3332] Sequential element (UC/reset_btn/FSM_sequential_BTN_state_reg[0]) is unused and will be removed from module Sistema_Testing.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:09 ; elapsed = 00:01:11 . Memory (MB): peak = 1347.828 ; gain = 78.832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:29 ; elapsed = 00:01:31 . Memory (MB): peak = 1347.828 ; gain = 78.832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:30 ; elapsed = 00:01:32 . Memory (MB): peak = 1347.828 ; gain = 78.832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:31 ; elapsed = 00:01:32 . Memory (MB): peak = 1347.828 ; gain = 78.832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:58 ; elapsed = 00:02:00 . Memory (MB): peak = 1347.828 ; gain = 78.832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:58 ; elapsed = 00:02:00 . Memory (MB): peak = 1347.828 ; gain = 78.832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:58 ; elapsed = 00:02:00 . Memory (MB): peak = 1347.828 ; gain = 78.832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:58 ; elapsed = 00:02:00 . Memory (MB): peak = 1347.828 ; gain = 78.832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:58 ; elapsed = 00:02:00 . Memory (MB): peak = 1347.828 ; gain = 78.832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:58 ; elapsed = 00:02:00 . Memory (MB): peak = 1347.828 ; gain = 78.832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     8|
+|3     |LUT2   |    71|
+|4     |LUT3   |     7|
+|5     |LUT4   |     8|
+|6     |LUT5   |    12|
+|7     |LUT6   |    39|
+|8     |FDRE   |    57|
+|9     |IBUF   |     3|
+|10    |OBUF   |     1|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:58 ; elapsed = 00:02:00 . Memory (MB): peak = 1347.828 ; gain = 78.832
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 6 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:25 ; elapsed = 00:01:53 . Memory (MB): peak = 1347.828 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:01:59 ; elapsed = 00:02:01 . Memory (MB): peak = 1347.828 ; gain = 78.832
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 1347.828 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1347.828 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: ae90358a
+INFO: [Common 17-83] Releasing license: Synthesis
+56 Infos, 19 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:02:12 ; elapsed = 00:02:17 . Memory (MB): peak = 1347.828 ; gain = 78.832
+INFO: [Common 17-1381] The checkpoint 'C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_2_Sistema_Testing_onBoard/6_1_Sistema_Testing.runs/synth_1/Sistema_Testing.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Sistema_Testing_utilization_synth.rpt -pb Sistema_Testing_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Feb 18 12:11:38 2023...

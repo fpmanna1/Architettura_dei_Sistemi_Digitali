@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Sat Feb 18 12:08:54 2023
+# Process ID: 12244
+# Current directory: C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_2_Sistema_Testing_onBoard/6_1_Sistema_Testing.runs/synth_1
+# Command line: vivado.exe -log Sistema_Testing.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Sistema_Testing.tcl
+# Log file: C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_2_Sistema_Testing_onBoard/6_1_Sistema_Testing.runs/synth_1/Sistema_Testing.vds
+# Journal file: C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_2_Sistema_Testing_onBoard/6_1_Sistema_Testing.runs/synth_1\vivado.jou
+# Running On: DESKTOP-SNDUETL, OS: Windows, CPU Frequency: 2196 MHz, CPU Physical cores: 4, Host memory: 11753 MB
+#-----------------------------------------------------------
+source Sistema_Testing.tcl -notrace

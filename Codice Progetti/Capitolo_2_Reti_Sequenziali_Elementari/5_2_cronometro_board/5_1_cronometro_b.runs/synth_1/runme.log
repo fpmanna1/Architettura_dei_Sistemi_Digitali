@@ -1,0 +1,491 @@
+
+*** Running vivado
+    with args -log cronometro_onboard.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source cronometro_onboard.tcl
+
+
+****** Vivado v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source cronometro_onboard.tcl -notrace
+Command: synth_design -top cronometro_onboard -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 19692 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 718.324 ; gain = 178.090
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-2551] possible infinite loop; process does not have a wait statement [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/cathodes_manager.vhd:68]
+INFO: [Synth 8-638] synthesizing module 'cronometro_onboard' [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/cronometro_onboard.vhd:23]
+	Parameter CLK_period bound to: 10 - type: integer 
+	Parameter btn_noise_time bound to: 10000000 - type: integer 
+INFO: [Synth 8-3491] module 'ButtonDebouncer' declared at 'C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/ButtonDebouncer.vhd:5' bound to instance 'set' of component 'ButtonDebouncer' [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/cronometro_onboard.vhd:111]
+INFO: [Synth 8-638] synthesizing module 'ButtonDebouncer' [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/ButtonDebouncer.vhd:16]
+	Parameter CLK_period bound to: 10 - type: integer 
+	Parameter btn_noise_time bound to: 10000000 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/ButtonDebouncer.vhd:47]
+INFO: [Synth 8-256] done synthesizing module 'ButtonDebouncer' (1#1) [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/ButtonDebouncer.vhd:16]
+INFO: [Synth 8-3491] module 'control_unit' declared at 'C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/control_unit.vhd:4' bound to instance 'cu' of component 'control_unit' [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/cronometro_onboard.vhd:123]
+INFO: [Synth 8-638] synthesizing module 'control_unit' [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/control_unit.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'control_unit' (2#1) [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/control_unit.vhd:19]
+INFO: [Synth 8-3491] module 'cronometro' declared at 'C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/cronometro.vhd:5' bound to instance 'cronos' of component 'cronometro' [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/cronometro_onboard.vhd:137]
+INFO: [Synth 8-638] synthesizing module 'cronometro' [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/cronometro.vhd:21]
+	Parameter clk_freq_in bound to: 100000000 - type: integer 
+	Parameter clk_freq_out bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'clock_divider' declared at 'C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/clock_divider.vhd:4' bound to instance 'div' of component 'clock_divider' [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/cronometro.vhd:59]
+INFO: [Synth 8-638] synthesizing module 'clock_divider' [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/clock_divider.vhd:14]
+	Parameter clock_frequency_in bound to: 100000000 - type: integer 
+	Parameter clock_frequency_out bound to: 1 - type: integer 
+WARNING: [Synth 8-3819] Generic 'clk_freq_in' not present in instantiated entity will be ignored [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/cronometro.vhd:59]
+WARNING: [Synth 8-3819] Generic 'clk_freq_out' not present in instantiated entity will be ignored [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/cronometro.vhd:59]
+INFO: [Synth 8-256] done synthesizing module 'clock_divider' (3#1) [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/clock_divider.vhd:14]
+	Parameter bits bound to: 6 - type: integer 
+	Parameter modulo bound to: 60 - type: integer 
+INFO: [Synth 8-3491] module 'contatore' declared at 'C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/contatore.vhd:5' bound to instance 'sec' of component 'contatore' [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/cronometro.vhd:70]
+INFO: [Synth 8-638] synthesizing module 'contatore' [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/contatore.vhd:22]
+	Parameter bits bound to: 6 - type: integer 
+	Parameter modulo bound to: 60 - type: integer 
+WARNING: [Synth 8-614] signal 'rst' is read in the process but is not in the sensitivity list [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/contatore.vhd:26]
+WARNING: [Synth 8-614] signal 'set_en' is read in the process but is not in the sensitivity list [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/contatore.vhd:26]
+WARNING: [Synth 8-614] signal 'set' is read in the process but is not in the sensitivity list [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/contatore.vhd:26]
+INFO: [Synth 8-256] done synthesizing module 'contatore' (4#1) [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/contatore.vhd:22]
+	Parameter bits bound to: 6 - type: integer 
+	Parameter modulo bound to: 60 - type: integer 
+INFO: [Synth 8-3491] module 'contatore' declared at 'C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/contatore.vhd:5' bound to instance 'min' of component 'contatore' [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/cronometro.vhd:87]
+	Parameter bits bound to: 5 - type: integer 
+	Parameter modulo bound to: 24 - type: integer 
+INFO: [Synth 8-3491] module 'contatore' declared at 'C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/contatore.vhd:5' bound to instance 'ore' of component 'contatore' [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/cronometro.vhd:104]
+INFO: [Synth 8-638] synthesizing module 'contatore__parameterized2' [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/contatore.vhd:22]
+	Parameter bits bound to: 5 - type: integer 
+	Parameter modulo bound to: 24 - type: integer 
+WARNING: [Synth 8-614] signal 'rst' is read in the process but is not in the sensitivity list [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/contatore.vhd:26]
+WARNING: [Synth 8-614] signal 'set_en' is read in the process but is not in the sensitivity list [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/contatore.vhd:26]
+WARNING: [Synth 8-614] signal 'set' is read in the process but is not in the sensitivity list [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/contatore.vhd:26]
+INFO: [Synth 8-256] done synthesizing module 'contatore__parameterized2' (4#1) [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/contatore.vhd:22]
+INFO: [Synth 8-256] done synthesizing module 'cronometro' (5#1) [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/cronometro.vhd:21]
+	Parameter clock_frequency_in bound to: 100000000 - type: integer 
+	Parameter clock_frequency_out bound to: 500 - type: integer 
+INFO: [Synth 8-3491] module 'display_seven_segments' declared at 'C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/display_seven_segments.vhd:4' bound to instance 'watch' of component 'display_seven_segments' [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/cronometro_onboard.vhd:155]
+INFO: [Synth 8-638] synthesizing module 'display_seven_segments' [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/display_seven_segments.vhd:20]
+	Parameter clock_frequency_in bound to: 100000000 - type: integer 
+	Parameter clock_frequency_out bound to: 500 - type: integer 
+	Parameter clock_frequency_in bound to: 100000000 - type: integer 
+	Parameter clock_frequency_out bound to: 500 - type: integer 
+INFO: [Synth 8-3491] module 'clock_divider' declared at 'C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/clock_divider.vhd:4' bound to instance 'clk_divider_instance' of component 'clock_divider' [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/display_seven_segments.vhd:79]
+INFO: [Synth 8-638] synthesizing module 'clock_divider__parameterized1' [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/clock_divider.vhd:14]
+	Parameter clock_frequency_in bound to: 100000000 - type: integer 
+	Parameter clock_frequency_out bound to: 500 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'clock_divider__parameterized1' (5#1) [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/clock_divider.vhd:14]
+INFO: [Synth 8-3491] module 'counter_mod8' declared at 'C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/counter_mod8.vhd:32' bound to instance 'counter_instance' of component 'counter_mod8' [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/display_seven_segments.vhd:90]
+INFO: [Synth 8-638] synthesizing module 'counter_mod8' [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/counter_mod8.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'counter_mod8' (6#1) [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/counter_mod8.vhd:39]
+INFO: [Synth 8-3491] module 'cathodes_input_manager' declared at 'C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/cathodes_input_manager.vhd:6' bound to instance 'cathodes_input_man_instance' of component 'cathodes_input_manager' [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/display_seven_segments.vhd:97]
+INFO: [Synth 8-638] synthesizing module 'cathodes_input_manager' [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/cathodes_input_manager.vhd:16]
+INFO: [Synth 8-226] default block is never used [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/cathodes_input_manager.vhd:21]
+INFO: [Synth 8-226] default block is never used [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/cathodes_input_manager.vhd:32]
+INFO: [Synth 8-256] done synthesizing module 'cathodes_input_manager' (7#1) [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/cathodes_input_manager.vhd:16]
+INFO: [Synth 8-3491] module 'cathodes_manager' declared at 'C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/cathodes_manager.vhd:32' bound to instance 'cathodes_instance' of component 'cathodes_manager' [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/display_seven_segments.vhd:107]
+INFO: [Synth 8-638] synthesizing module 'cathodes_manager' [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/cathodes_manager.vhd:38]
+INFO: [Synth 8-226] default block is never used [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/cathodes_manager.vhd:70]
+INFO: [Synth 8-256] done synthesizing module 'cathodes_manager' (8#1) [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/cathodes_manager.vhd:38]
+INFO: [Synth 8-3491] module 'anodes_manager' declared at 'C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/anodes_manager.vhd:32' bound to instance 'anodes_instance' of component 'anodes_manager' [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/display_seven_segments.vhd:113]
+INFO: [Synth 8-638] synthesizing module 'anodes_manager' [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/anodes_manager.vhd:39]
+INFO: [Synth 8-226] default block is never used [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/anodes_manager.vhd:50]
+INFO: [Synth 8-256] done synthesizing module 'anodes_manager' (9#1) [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/anodes_manager.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'display_seven_segments' (10#1) [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/display_seven_segments.vhd:20]
+INFO: [Synth 8-3491] module 'converter' declared at 'C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/converter.vhd:32' bound to instance 'conv_s' of component 'converter' [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/cronometro_onboard.vhd:173]
+INFO: [Synth 8-638] synthesizing module 'converter' [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/converter.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'converter' (11#1) [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/converter.vhd:40]
+INFO: [Synth 8-3491] module 'converter' declared at 'C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/converter.vhd:32' bound to instance 'conv_m' of component 'converter' [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/cronometro_onboard.vhd:180]
+INFO: [Synth 8-3491] module 'converter' declared at 'C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/converter.vhd:32' bound to instance 'conv_h' of component 'converter' [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/cronometro_onboard.vhd:187]
+INFO: [Synth 8-256] done synthesizing module 'cronometro_onboard' (12#1) [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/sources_1/new/cronometro_onboard.vhd:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 778.262 ; gain = 238.027
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 778.262 ; gain = 238.027
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 778.262 ; gain = 238.027
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/constrs_1/new/Nexys-A7-100T-Master.xdc]
+Finished Parsing XDC File [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/constrs_1/new/Nexys-A7-100T-Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.srcs/constrs_1/new/Nexys-A7-100T-Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/cronometro_onboard_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/cronometro_onboard_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 903.438 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 903.438 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:13 . Memory (MB): peak = 903.438 ; gain = 363.203
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:13 . Memory (MB): peak = 903.438 ; gain = 363.203
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:05 ; elapsed = 00:00:13 . Memory (MB): peak = 903.438 ; gain = 363.203
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'BTN_state_reg' in module 'ButtonDebouncer'
+INFO: [Synth 8-5587] ROM size for "vOut" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5587] ROM size for "vOut" is below threshold of ROM address width. It will be mapped to LUTs
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                released |                               00 |                               00
+            pressed_vrfy |                               01 |                               01
+          pressed_cnfrmd |                               10 |                               10
+           released_vrfy |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'BTN_state_reg' using encoding 'sequential' in module 'ButtonDebouncer'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:14 . Memory (MB): peak = 903.438 ; gain = 363.203
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 4     
+	   2 Input     27 Bit       Adders := 1     
+	   2 Input     18 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 4     
+	               27 Bit    Registers := 1     
+	               18 Bit    Registers := 1     
+	                8 Bit    Registers := 3     
+	                6 Bit    Registers := 2     
+	                5 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 17    
+	   4 Input     32 Bit        Muxes := 1     
+	   2 Input     18 Bit        Muxes := 1     
+	   8 Input      8 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 4     
+	   4 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 4     
+	  11 Input      4 Bit        Muxes := 3     
+	   7 Input      4 Bit        Muxes := 3     
+	   7 Input      3 Bit        Muxes := 3     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 4     
+	   4 Input      1 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module ButtonDebouncer 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   4 Input     32 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 4     
+	   4 Input      1 Bit        Muxes := 4     
+Module control_unit 
+Detailed RTL Component Info : 
++---Registers : 
+	                6 Bit    Registers := 2     
+	                5 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      6 Bit        Muxes := 4     
+	   4 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 4     
+	   4 Input      1 Bit        Muxes := 1     
+Module clock_divider 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     27 Bit       Adders := 1     
++---Registers : 
+	               27 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
+Module contatore 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 5     
+Module contatore__parameterized2 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 5     
+Module clock_divider__parameterized1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     18 Bit       Adders := 1     
++---Registers : 
+	               18 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     18 Bit        Muxes := 1     
+Module counter_mod8 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	                3 Bit    Registers := 1     
+Module anodes_manager 
+Detailed RTL Component Info : 
++---Muxes : 
+	   8 Input      8 Bit        Muxes := 1     
+Module converter 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---Muxes : 
+	  11 Input      4 Bit        Muxes := 1     
+	   7 Input      4 Bit        Muxes := 1     
+	   7 Input      3 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5587] ROM size for "conv_s/vOut" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5587] ROM size for "conv_s/vOut" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5587] ROM size for "conv_m/vOut" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5587] ROM size for "conv_m/vOut" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5587] ROM size for "conv_h/vOut" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5587] ROM size for "conv_h/vOut" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-3886] merging instance 'conv_h/vOut_reg[6]' (FD) to 'conv_h/vOut_reg[7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\conv_h/vOut_reg[7] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:19 . Memory (MB): peak = 903.438 ; gain = 363.203
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:27 . Memory (MB): peak = 903.438 ; gain = 363.203
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:29 . Memory (MB): peak = 908.230 ; gain = 367.996
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:13 ; elapsed = 00:00:29 . Memory (MB): peak = 909.285 ; gain = 369.051
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:13 ; elapsed = 00:00:31 . Memory (MB): peak = 916.059 ; gain = 375.824
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:13 ; elapsed = 00:00:31 . Memory (MB): peak = 916.059 ; gain = 375.824
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:13 ; elapsed = 00:00:31 . Memory (MB): peak = 916.059 ; gain = 375.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:13 ; elapsed = 00:00:31 . Memory (MB): peak = 916.059 ; gain = 375.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:13 ; elapsed = 00:00:31 . Memory (MB): peak = 916.059 ; gain = 375.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:13 ; elapsed = 00:00:31 . Memory (MB): peak = 916.059 ; gain = 375.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     2|
+|2     |CARRY4 |    44|
+|3     |LUT1   |     3|
+|4     |LUT2   |    82|
+|5     |LUT3   |    77|
+|6     |LUT4   |    64|
+|7     |LUT5   |   106|
+|8     |LUT6   |    37|
+|9     |FDCE   |    96|
+|10    |FDPE   |    17|
+|11    |FDRE   |   126|
+|12    |LDC    |    17|
+|13    |IBUF   |    13|
+|14    |OBUF   |    16|
++------+-------+------+
+
+Report Instance Areas: 
++------+-------------------------+------------------------------+------+
+|      |Instance                 |Module                        |Cells |
++------+-------------------------+------------------------------+------+
+|1     |top                      |                              |   700|
+|2     |  conv_h                 |converter                     |     6|
+|3     |  conv_m                 |converter_0                   |    12|
+|4     |  conv_s                 |converter_1                   |     8|
+|5     |  cronos                 |cronometro                    |   424|
+|6     |    div                  |clock_divider                 |    71|
+|7     |    min                  |contatore                     |   123|
+|8     |    ore                  |contatore__parameterized2     |   108|
+|9     |    sec                  |contatore_2                   |   122|
+|10    |  cu                     |control_unit                  |    51|
+|11    |  set                    |ButtonDebouncer               |    96|
+|12    |  watch                  |display_seven_segments        |    72|
+|13    |    clk_divider_instance |clock_divider__parameterized1 |    47|
+|14    |    counter_instance     |counter_mod8                  |    25|
++------+-------------------------+------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:13 ; elapsed = 00:00:31 . Memory (MB): peak = 916.059 ; gain = 375.824
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:10 ; elapsed = 00:00:28 . Memory (MB): peak = 916.059 ; gain = 250.648
+Synthesis Optimization Complete : Time (s): cpu = 00:00:13 ; elapsed = 00:00:31 . Memory (MB): peak = 916.059 ; gain = 375.824
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 61 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 920.379 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 17 instances were transformed.
+  LDC => LDCE: 17 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+73 Infos, 9 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:38 . Memory (MB): peak = 920.379 ; gain = 629.719
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 920.379 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/claud/VivadoProjects/5_1_cronometro_b/5_1_cronometro_b.runs/synth_1/cronometro_onboard.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file cronometro_onboard_utilization_synth.rpt -pb cronometro_onboard_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Feb 17 12:37:23 2023...

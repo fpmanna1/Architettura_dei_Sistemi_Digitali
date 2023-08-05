@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Thu Mar 16 21:46:38 2023
+# Process ID: 18660
+# Current directory: C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/4_1_shift_reg_behav
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15900 C:\Users\nokia\Desktop\Projects_ASDI\Capitolo_2_Reti_Sequenziali_Elementari\4_1_shift_reg_behav\shift_reg_behav.xpr
+# Log file: C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/4_1_shift_reg_behav/vivado.log
+# Journal file: C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/4_1_shift_reg_behav\vivado.jou
+# Running On: Yoga_7i, OS: Windows, CPU Frequency: 3110 MHz, CPU Physical cores: 12, Host memory: 16890 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/4_1_shift_reg_behav/shift_reg_behav.xpr
+update_compile_order -fileset sources_1

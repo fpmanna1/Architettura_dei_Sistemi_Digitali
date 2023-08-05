@@ -1,0 +1,216 @@
+/*
+
+Xilinx Vivado v2022.1 (64-bit) [Major: 2022, Minor: 1]
+SW Build: 3526262 on Mon Apr 18 15:48:16 MDT 2022
+IP Build: 3524634 on Mon Apr 18 20:55:01 MDT 2022
+
+Process ID (PID): 11836
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Tue Feb 07 10:29:22 CET 2023
+Time zone: 	Central European Standard Time (Europe/Berlin)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1366x768
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+
+Java version: 	11.0.11 64-bit
+Java home: 	C:/Xilinx/Vivado/2022.1/tps/win64/jre11.0.11_9
+Java executable: 	C:/Xilinx/Vivado/2022.1/tps/win64/jre11.0.11_9/bin/java.exe
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Dsun.java2d.d3d=false, -Dsun.awt.nopixfmt=true, -Dsun.java2d.dpiaware=true, -Dsun.java2d.uiScale.enabled=false, -Xverify:none, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, --add-opens=java.desktop/com.sun.awt=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, -XX:NewSize=60m, -XX:MaxNewSize=60m, -Xms256m, -Xmx3072m, -Xss5m]
+Java initial memory (-Xms): 	256 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	plett
+User home directory: C:/Users/plett
+User working directory: C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/shift_reg_structural
+User country: 	GB
+User language: 	en
+User locale: 	en_GB
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2022.1
+RDI_DATADIR: C:/Xilinx/Vivado/2022.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2022.1/bin
+
+Vivado preferences file: C:/Users/plett/AppData/Roaming/Xilinx/Vivado/2022.1/vivado.xml
+Vivado preferences directory: C:/Users/plett/AppData/Roaming/Xilinx/Vivado/2022.1/
+Vivado layouts directory: C:/Users/plett/AppData/Roaming/Xilinx/Vivado/2022.1/data/layouts
+PlanAhead jar file: 	C:/Xilinx/Vivado/2022.1/lib/classes/planAhead.jar
+Vivado log file: 	C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/shift_reg_structural/vivado.log
+Vivado journal file: 	C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/shift_reg_structural/vivado.jou
+Engine tmp dir: 	C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/shift_reg_structural/.Xil/Vivado-11836-DESKTOP-SNDUETL
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2022.1/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2022.1/ids_lite/ISE
+XILINX_HLS: C:/Xilinx/Vitis_HLS/2022.1
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2022.1
+XILINX_VIVADO: C:/Xilinx/Vivado/2022.1
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2022.1
+
+
+GUI allocated memory:	256 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,258 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// WARNING: HEventQueue.dispatchEvent() is taking  3692 ms.
+// TclEventType: PROJECT_OPEN_DIALOG
+// WARNING: HEventQueue.dispatchEvent() is taking  1233 ms.
+// TclEventType: PROJECT_OPEN_DIALOG
+// WARNING: HEventQueue.dispatchEvent() is taking  1029 ms.
+// Opening Vivado Project: C:\Users\plett\OneDrive\Desktop\Projects_ASDI\Capitolo_2_Reti_Sequenziali_Elementari\shift_reg_structural\shift_reg_structural.xpr. Version: Vivado v2022.1 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,258 MB. GUI used memory: 54 MB. Current time: 2/7/23, 10:29:26 AM CET
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/shift_reg_structural/shift_reg_structural.xpr 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/shift_reg_structural' 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,258 MB. GUI used memory: 53 MB. Current time: 2/7/23, 10:29:56 AM CET
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/shift_reg_structural/shift_reg_structural.xpr 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/shift_reg_structural' 
+// Tcl Message: INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/shift_reg_structural/shift_reg_structural.gen/sources_1'. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 59 MB (+59220kb) [00:01:30]
+// [Engine Memory]: 1,258 MB (+1167211kb) [00:01:30]
+// [GUI Memory]: 107 MB (+47552kb) [00:01:37]
+// WARNING: HEventQueue.dispatchEvent() is taking  14665 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.1/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:01:19 ; elapsed = 00:00:55 . Memory (MB): peak = 1222.039 ; gain = 0.000 
+// Project name: shift_reg_structural; location: C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/shift_reg_structural; part: xc7a100tcsg324-1
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 565ms to process. Increasing delay to 3000 ms.
+dismissDialog("Open Project"); // bA
+// WARNING: HEventQueue.dispatchEvent() is taking  2344 ms.
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 113 MB (+800kb) [00:02:51]
+// WARNING: HEventQueue.dispatchEvent() is taking  3594 ms.
+// PAPropertyPanels.initPanels (shift_reg_structural.vhd) elapsed time: 0.6s
+// Elapsed time: 116 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, shift_reg_structural(Structural) (shift_reg_structural.vhd)]", 1, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, shift_reg_structural(Structural) (shift_reg_structural.vhd), mux_0 : mux_4_1(rtl) (mux_4_1.vhd)]", 2, false, false, false, false, false, true); // D - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, shift_reg_structural(Structural) (shift_reg_structural.vhd), mux_0 : mux_4_1(rtl) (mux_4_1.vhd)]", 2, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, shift_reg_structural(Structural) (shift_reg_structural.vhd), mux_0 : mux_4_1(rtl) (mux_4_1.vhd)]", 2, false, false, false, false, false, true); // D - Double Click
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1089 ms. Increasing delay to 3267 ms.
+// Elapsed time: 838 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, shift_reg_structural(Structural) (shift_reg_structural.vhd), ff_1 : flip_flop_d(Behavioral) (flip_flop_d.vhd)]", 7, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, shift_reg_structural(Structural) (shift_reg_structural.vhd), ff_1 : flip_flop_d(Behavioral) (flip_flop_d.vhd)]", 7, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1123 ms.
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // N
+// Elapsed time: 232 seconds
+selectCodeEditor("flip_flop_d.vhd", 0, 76); // be
+typeControlKey((HResource) null, "flip_flop_d.vhd", 'c'); // be
+// Elapsed time: 304 seconds
+selectCodeEditor("flip_flop_d.vhd", 295, 109); // be
+// [GUI Memory]: 120 MB (+756kb) [00:30:39]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,258 MB. GUI used memory: 62 MB. Current time: 2/7/23, 11:00:00 AM CET
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 1301 ms to process. Increasing delay to 2000 ms.
+// Elapsed time: 1734 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "shift_reg_structural.vhd", 1); // m
+// HMemoryUtils.trashcanNow. Engine heap size: 1,258 MB. GUI used memory: 53 MB. Current time: 2/7/23, 11:30:00 AM CET
+// Elapsed time: 1251 seconds
+selectCodeEditor("shift_reg_structural.vhd", 230, 115); // be
+typeControlKey((HResource) null, "shift_reg_structural.vhd", 'c'); // be
+// Elapsed time: 35 seconds
+typeControlKey((HResource) null, "shift_reg_structural.vhd", 'c'); // be
+// HMemoryUtils.trashcanNow. Engine heap size: 1,258 MB. GUI used memory: 53 MB. Current time: 2/7/23, 12:00:01 PM CET
+// Elapsed time: 2247 seconds
+selectCodeEditor("shift_reg_structural.vhd", 284, 222); // be
+// HMemoryUtils.trashcanNow. Engine heap size: 1,258 MB. GUI used memory: 53 MB. Current time: 2/7/23, 12:30:01 PM CET
+// Elapsed time: 1244 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aj
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ao
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ao
+selectMenuItem(PAResourceCommand.PACommandNames_CLOSE_PROJECT, "Close Project"); // ar
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aj
+// Run Command: PAResourceCommand.PACommandNames_CLOSE_PROJECT
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Close Project"); // A
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,258 MB. GUI used memory: 52 MB. Current time: 2/7/23, 12:44:11 PM CET
+// Tcl Message: close_project 
+dismissDialog("Close Project"); // bA
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aj
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ao
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ao
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aj
+selectButton(PAResourceEtoH.GettingStartedView_OPEN_PROJECT, "Open Project"); // y
+// Run Command: PAResourceCommand.PACommandNames_OPEN_PROJECT
+setFileChooser("C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/ric_seq_board/ric_seq.xpr");
+// Opening Vivado Project: C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/ric_seq_board/ric_seq.xpr. Version: Vivado v2022.1 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/ric_seq_board/ric_seq.xpr 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/ric_seq_board' 
+// Tcl Message: open_project C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/ric_seq_board/ric_seq.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// WARNING: HEventQueue.dispatchEvent() is taking  4116 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.1/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:06 . Memory (MB): peak = 1222.039 ; gain = 0.000 
+// Project name: ric_seq; location: C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/ric_seq_board; part: xc7a100tcsg324-1
+dismissDialog("Open Project"); // bA
+// Tcl Message: update_compile_order -fileset sources_1 
+// PAPropertyPanels.initPanels (ric_seq.vhd) elapsed time: 0.3s
+// Elapsed time: 46 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ric_seq(Behavioral) (ric_seq.vhd)]", 1, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ric_seq(Behavioral) (ric_seq.vhd)]", 1, false, false, false, false, false, true); // D - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // N
+// Elapsed time: 35 seconds
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aA
+selectCodeEditor("ric_seq.vhd", 247, 93); // be
+// HMemoryUtils.trashcanNow. Engine heap size: 1,258 MB. GUI used memory: 57 MB. Current time: 2/7/23, 1:14:12 PM CET
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 1098 ms. Increasing delay to 3000 ms.

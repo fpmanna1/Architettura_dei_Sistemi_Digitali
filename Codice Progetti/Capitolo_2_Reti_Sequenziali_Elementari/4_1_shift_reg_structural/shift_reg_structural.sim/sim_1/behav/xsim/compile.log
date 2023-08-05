@@ -1,0 +1,6 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/shift_reg_structural/shift_reg_structural.srcs/sources_1/new/mux_4_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mux_4_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/shift_reg_structural/shift_reg_structural.srcs/sources_1/new/shift_reg_structural.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'shift_reg_structural'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/shift_reg_structural/shift_reg_structural.srcs/sim_1/new/shift_reg_struct_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'TB_shift_structural'

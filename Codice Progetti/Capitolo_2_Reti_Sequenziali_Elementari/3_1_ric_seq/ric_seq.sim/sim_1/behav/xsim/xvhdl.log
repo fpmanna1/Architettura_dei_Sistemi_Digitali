@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/3_1_ric_seq/ric_seq.srcs/sources_1/new/ric_seq.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ric_seq'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/3_1_ric_seq/ric_seq.srcs/sim_1/new/ric_seq_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ric_seq_tb'

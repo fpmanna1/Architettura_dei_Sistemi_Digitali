@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Thu Mar 16 19:21:06 2023
+# Process ID: 21416
+# Current directory: C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/3_1_ric_seq
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16476 C:\Users\nokia\Desktop\Projects_ASDI\Capitolo_2_Reti_Sequenziali_Elementari\3_1_ric_seq\ric_seq.xpr
+# Log file: C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/3_1_ric_seq/vivado.log
+# Journal file: C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/3_1_ric_seq\vivado.jou
+# Running On: Yoga_7i, OS: Windows, CPU Frequency: 3110 MHz, CPU Physical cores: 12, Host memory: 16890 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/nokia/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/3_1_ric_seq/ric_seq.xpr
+update_compile_order -fileset sources_1

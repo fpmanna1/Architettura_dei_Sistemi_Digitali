@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Fri Feb 17 20:51:58 2023
+# Process ID: 11176
+# Current directory: C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_1_Sistema_Testing
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2892 C:\Users\plett\OneDrive\Desktop\Projects_ASDI\Capitolo_2_Reti_Sequenziali_Elementari\6_1_Sistema_Testing\6_1_Sistema_Testing.xpr
+# Log file: C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_1_Sistema_Testing/vivado.log
+# Journal file: C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_1_Sistema_Testing\vivado.jou
+# Running On: DESKTOP-SNDUETL, OS: Windows, CPU Frequency: 2196 MHz, CPU Physical cores: 4, Host memory: 11753 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_1_Sistema_Testing/6_1_Sistema_Testing.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_1_Sistema_Testing/Sistema_Testing_tb_behav.wcfg
+source Sistema_Testing_tb.tcl
+close_sim

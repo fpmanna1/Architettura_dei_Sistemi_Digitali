@@ -1,0 +1,20 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_1_Sistema_Testing/6_1_Sistema_Testing.srcs/sources_1/new/MEM_out.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MEM_out'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_1_Sistema_Testing/6_1_Sistema_Testing.srcs/sources_1/new/ROM_in.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ROM_in'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_1_Sistema_Testing/6_1_Sistema_Testing.srcs/sources_1/new/ROM_results.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ROM_results'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_1_Sistema_Testing/6_1_Sistema_Testing.srcs/sources_1/new/Sistema_Testing.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Sistema_Testing'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_1_Sistema_Testing/6_1_Sistema_Testing.srcs/sources_1/new/Unita_Controllo.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Unita_Controllo'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_1_Sistema_Testing/6_1_Sistema_Testing.srcs/sources_1/new/Unita_Operativa.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Unita_Operativa'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_1_Sistema_Testing/6_1_Sistema_Testing.srcs/sources_1/new/comparatore.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'comparatore'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_1_Sistema_Testing/6_1_Sistema_Testing.srcs/sources_1/new/counter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'counter'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_1_Sistema_Testing/6_1_Sistema_Testing.srcs/sources_1/new/m_comb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'm_comb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/plett/OneDrive/Desktop/Projects_ASDI/Capitolo_2_Reti_Sequenziali_Elementari/6_1_Sistema_Testing/6_1_Sistema_Testing.srcs/sim_1/new/sistema_testing_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Sistema_Testing_tb'

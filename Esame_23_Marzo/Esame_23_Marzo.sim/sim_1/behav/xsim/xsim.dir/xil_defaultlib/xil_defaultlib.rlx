@@ -1,0 +1,16 @@
+0.7
+2020.2
+Apr 18 2022
+16:05:34
+C:/Users/nokia/Desktop/Esame_23_Marzo/Esame_23_Marzo.srcs/sim_1/new/testbench.vhd,1679590155,vhdl,,,,system_tb,,,,,,,,
+C:/Users/nokia/Desktop/Esame_23_Marzo/Esame_23_Marzo.srcs/sources_1/new/Contatore.vhd,1679561033,vhdl,C:/Users/nokia/Desktop/Esame_23_Marzo/Esame_23_Marzo.srcs/sources_1/new/Unita_Operativa_B.vhd;C:/Users/nokia/Desktop/Esame_23_Marzo/Esame_23_Marzo.srcs/sources_1/new/comp_string.vhd,,,counter,,,,,,,,
+C:/Users/nokia/Desktop/Esame_23_Marzo/Esame_23_Marzo.srcs/sources_1/new/ROM.vhd,1679600671,vhdl,C:/Users/nokia/Desktop/Esame_23_Marzo/Esame_23_Marzo.srcs/sources_1/new/Unita_Operativa_B.vhd,,,rom,,,,,,,,
+C:/Users/nokia/Desktop/Esame_23_Marzo/Esame_23_Marzo.srcs/sources_1/new/Unita_Controllo_A.vhd,1679593236,vhdl,C:/Users/nokia/Desktop/Esame_23_Marzo/Esame_23_Marzo.srcs/sources_1/new/system.vhd,,,unita_controllo_a,,,,,,,,
+C:/Users/nokia/Desktop/Esame_23_Marzo/Esame_23_Marzo.srcs/sources_1/new/Unita_Controllo_B.vhd,1679590883,vhdl,C:/Users/nokia/Desktop/Esame_23_Marzo/Esame_23_Marzo.srcs/sources_1/new/system.vhd,,,unita_controllo_b,,,,,,,,
+C:/Users/nokia/Desktop/Esame_23_Marzo/Esame_23_Marzo.srcs/sources_1/new/Unita_Controllo_Comp.vhd,1679600651,vhdl,C:/Users/nokia/Desktop/Esame_23_Marzo/Esame_23_Marzo.srcs/sources_1/new/comp_string.vhd,,,unita_controllo_comp,,,,,,,,
+C:/Users/nokia/Desktop/Esame_23_Marzo/Esame_23_Marzo.srcs/sources_1/new/Unita_Operativa_A.vhd,1679565244,vhdl,C:/Users/nokia/Desktop/Esame_23_Marzo/Esame_23_Marzo.srcs/sources_1/new/system.vhd,,,unita_operativa_a,,,,,,,,
+C:/Users/nokia/Desktop/Esame_23_Marzo/Esame_23_Marzo.srcs/sources_1/new/Unita_Operativa_B.vhd,1679567463,vhdl,C:/Users/nokia/Desktop/Esame_23_Marzo/Esame_23_Marzo.srcs/sources_1/new/system.vhd,,,unita_operativa_b,,,,,,,,
+C:/Users/nokia/Desktop/Esame_23_Marzo/Esame_23_Marzo.srcs/sources_1/new/comp_bit.vhd,1679584356,vhdl,C:/Users/nokia/Desktop/Esame_23_Marzo/Esame_23_Marzo.srcs/sources_1/new/comp_string.vhd,,,comp_bit,,,,,,,,
+C:/Users/nokia/Desktop/Esame_23_Marzo/Esame_23_Marzo.srcs/sources_1/new/comp_string.vhd,1679588813,vhdl,C:/Users/nokia/Desktop/Esame_23_Marzo/Esame_23_Marzo.srcs/sources_1/new/system.vhd,,,comp_string,,,,,,,,
+C:/Users/nokia/Desktop/Esame_23_Marzo/Esame_23_Marzo.srcs/sources_1/new/shift_reg.vhd,1679579569,vhdl,C:/Users/nokia/Desktop/Esame_23_Marzo/Esame_23_Marzo.srcs/sources_1/new/comp_string.vhd,,,shift_reg,,,,,,,,
+C:/Users/nokia/Desktop/Esame_23_Marzo/Esame_23_Marzo.srcs/sources_1/new/system.vhd,1679576440,vhdl,,,,system,,,,,,,,

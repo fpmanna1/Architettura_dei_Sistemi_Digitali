@@ -1,0 +1,9 @@
+Progettare un sistema A dotato di un comparatore seriale di stringhe da
+8 bit, realizzato a partire da un comparatore di bit (comparazione
+effettuata su bit omologhi in iterazioni successive). A riceve le
+stringhe X e Y da confrontare da un'unità B che gliele invia, una per
+volta, prelevandole da una memoria interna, ed effettuando un
+handshaking per ciascuna di esse. Ricevute le stringhe in ingresso, A
+deve stabilire se X=Y, X<Y o X>Y, e deve fornire il numero di bit uguali
+in posizione omologa. Se tale numero è maggiore di 4, il sistema A
+incrementa un contatore interno. 

@@ -1,0 +1,29 @@
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot system_tb_behav xil_defaultlib.system_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.math_real
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.Shift_reg [shift_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.Counter [counter_default]
+Compiling architecture behavioral of entity xil_defaultlib.comp_bit [comp_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Unita_Controllo_Comp [unita_controllo_comp_default]
+Compiling architecture structural of entity xil_defaultlib.comp_string [comp_string_default]
+Compiling architecture behavioral of entity xil_defaultlib.Unita_Controllo_A [unita_controllo_a_default]
+Compiling architecture behavioral of entity xil_defaultlib.ROM [rom_default]
+Compiling architecture behavioral of entity xil_defaultlib.Counter [\Counter(m=4)\]
+Compiling architecture structural of entity xil_defaultlib.Unita_Operativa_B [unita_operativa_b_default]
+Compiling architecture behavioral of entity xil_defaultlib.Unita_Controllo_B [unita_controllo_b_default]
+Compiling architecture structural of entity xil_defaultlib.system [system_default]
+Compiling architecture bench of entity xil_defaultlib.system_tb
+Built simulation snapshot system_tb_behav

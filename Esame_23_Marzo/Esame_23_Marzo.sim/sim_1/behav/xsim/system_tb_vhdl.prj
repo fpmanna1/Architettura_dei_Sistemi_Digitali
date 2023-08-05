@@ -1,0 +1,16 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Esame_23_Marzo.srcs/sources_1/new/Contatore.vhd" \
+"../../../../Esame_23_Marzo.srcs/sources_1/new/ROM.vhd" \
+"../../../../Esame_23_Marzo.srcs/sources_1/new/Unita_Controllo_A.vhd" \
+"../../../../Esame_23_Marzo.srcs/sources_1/new/Unita_Controllo_B.vhd" \
+"../../../../Esame_23_Marzo.srcs/sources_1/new/Unita_Controllo_Comp.vhd" \
+"../../../../Esame_23_Marzo.srcs/sources_1/new/Unita_Operativa_B.vhd" \
+"../../../../Esame_23_Marzo.srcs/sources_1/new/comp_bit.vhd" \
+"../../../../Esame_23_Marzo.srcs/sources_1/new/shift_reg.vhd" \
+"../../../../Esame_23_Marzo.srcs/sources_1/new/comp_string.vhd" \
+"../../../../Esame_23_Marzo.srcs/sources_1/new/system.vhd" \
+"../../../../Esame_23_Marzo.srcs/sim_1/new/testbench.vhd" \
+
+# Do not sort compile order
+nosort

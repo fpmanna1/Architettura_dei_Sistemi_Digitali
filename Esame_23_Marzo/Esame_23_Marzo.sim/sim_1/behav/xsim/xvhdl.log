@@ -1,0 +1,10 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nokia/Desktop/Esame_23_Marzo/Esame_23_Marzo.srcs/sources_1/new/ROM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ROM'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nokia/Desktop/Esame_23_Marzo/Esame_23_Marzo.srcs/sources_1/new/Unita_Controllo_Comp.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Unita_Controllo_Comp'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nokia/Desktop/Esame_23_Marzo/Esame_23_Marzo.srcs/sources_1/new/Unita_Operativa_B.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Unita_Operativa_B'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nokia/Desktop/Esame_23_Marzo/Esame_23_Marzo.srcs/sources_1/new/comp_string.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'comp_string'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nokia/Desktop/Esame_23_Marzo/Esame_23_Marzo.srcs/sources_1/new/system.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'system'

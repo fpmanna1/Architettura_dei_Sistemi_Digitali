@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="system_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="system_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="484.710 ns"></ZoomStartTime>
+      <ZoomEndTime time="683.566 ns"></ZoomEndTime>
+      <Cursor1Time time="164.760 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="130"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="19" />
+   <wvobject fp_name="/system_tb/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/system_tb/uut/UC_A/curr" type="other">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">curr</obj_property>
+      <obj_property name="ObjectShortName">curr</obj_property>
+      <obj_property name="label">stato_A</obj_property>
+   </wvobject>
+   <wvobject fp_name="/system_tb/uut/UC_B/curr" type="other">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">curr</obj_property>
+      <obj_property name="ObjectShortName">curr</obj_property>
+      <obj_property name="label">stato_B</obj_property>
+   </wvobject>
+   <wvobject fp_name="/system_tb/uut/UO_A/UC_comp_string/curr" type="other">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">curr</obj_property>
+      <obj_property name="ObjectShortName">curr</obj_property>
+      <obj_property name="label">stato_COMP</obj_property>
+   </wvobject>
+   <wvobject fp_name="/system_tb/uut/UO_A/UC_comp_string/stop_gt_lt" type="logic">
+      <obj_property name="ElementShortName">stop_gt_lt</obj_property>
+      <obj_property name="ObjectShortName">stop_gt_lt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/system_tb/uut/UO_A/sr_x/load" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">load</obj_property>
+      <obj_property name="ObjectShortName">load</obj_property>
+      <obj_property name="label">load_x</obj_property>
+   </wvobject>
+   <wvobject fp_name="/system_tb/uut/UO_A/sr_x/shift" type="logic">
+      <obj_property name="ElementShortName">shift</obj_property>
+      <obj_property name="ObjectShortName">shift</obj_property>
+   </wvobject>
+   <wvobject fp_name="/system_tb/uut/UO_A/sr_x/p_in" type="array">
+      <obj_property name="ElementShortName">p_in[0:7]</obj_property>
+      <obj_property name="ObjectShortName">p_in[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/system_tb/uut/UO_A/sr_y/load" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">load</obj_property>
+      <obj_property name="ObjectShortName">load</obj_property>
+      <obj_property name="label">load_y</obj_property>
+   </wvobject>
+   <wvobject fp_name="/system_tb/uut/UO_A/comp_bit/x" type="logic">
+      <obj_property name="ElementShortName">x</obj_property>
+      <obj_property name="ObjectShortName">x</obj_property>
+   </wvobject>
+   <wvobject fp_name="/system_tb/uut/UO_A/comp_bit/y" type="logic">
+      <obj_property name="ElementShortName">y</obj_property>
+      <obj_property name="ObjectShortName">y</obj_property>
+   </wvobject>
+   <wvobject fp_name="/system_tb/uut/UO_A/comp_bit/enable" type="logic">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/system_tb/uut/UO_A/comp_bit/enable_gt_lt" type="logic">
+      <obj_property name="ElementShortName">enable_gt_lt</obj_property>
+      <obj_property name="ObjectShortName">enable_gt_lt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/system_tb/uut/UO_A/comp_bit/eq" type="logic">
+      <obj_property name="ElementShortName">eq</obj_property>
+      <obj_property name="ObjectShortName">eq</obj_property>
+   </wvobject>
+   <wvobject fp_name="/system_tb/uut/UO_A/comp_bit/x_gt_y" type="logic">
+      <obj_property name="ElementShortName">x_gt_y</obj_property>
+      <obj_property name="ObjectShortName">x_gt_y</obj_property>
+   </wvobject>
+   <wvobject fp_name="/system_tb/uut/UO_A/comp_bit/x_lt_y" type="logic">
+      <obj_property name="ElementShortName">x_lt_y</obj_property>
+      <obj_property name="ObjectShortName">x_lt_y</obj_property>
+   </wvobject>
+   <wvobject fp_name="/system_tb/uut/UO_A/cont_bit_omol/count" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">count[0:2]</obj_property>
+      <obj_property name="ObjectShortName">count[0:2]</obj_property>
+      <obj_property name="label">cont_bit_omologhi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/system_tb/uut/UO_A/cont_cifre/count" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">count[0:2]</obj_property>
+      <obj_property name="ObjectShortName">count[0:2]</obj_property>
+      <obj_property name="label">cont_cifre</obj_property>
+   </wvobject>
+   <wvobject fp_name="/system_tb/uut/UO_A/cont_interno/count" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">count[0:2]</obj_property>
+      <obj_property name="ObjectShortName">count[0:2]</obj_property>
+      <obj_property name="label">cont_interno</obj_property>
+   </wvobject>
+</wave_config>
